@@ -1,0 +1,29 @@
+.unicamp-fis-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 400px;
+    position: relative;
+    padding: 0;
+    margin: auto;
+    margin-top: 5vh;
+}
+.unicamp-fis-list li {
+    background: rgb(255, 255, 255);
+    border: 2px inset rgb(146, 207, 218);
+    padding: 10px 30px;
+    margin-bottom: 10px;
+}
+.unicamp-fis-list li:hover {
+    background-color: rgb(92, 160, 160);
+    color: rgb(248, 254, 255);
+}
+.unicamp-fis {
+    text-decoration: none;
+    color: #000;
+}
+
+.parag-unicamp {
+    text-align: center;
+    margin: 15px;
+}

@@ -1,0 +1,5 @@
+.main-menu {
+    height: 100vh;
+    background: rgb(140,228,230);
+    background: linear-gradient(0deg, rgba(140,228,230,1) 0%, rgba(214,245,246,1) 35%, rgba(248,254,255,1) 70%, rgba(255,255,255,1) 100%); 
+}

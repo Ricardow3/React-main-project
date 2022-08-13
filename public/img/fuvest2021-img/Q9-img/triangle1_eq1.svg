@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg192"
+   width="54.401001"
+   height="85.240997"
+   viewBox="0 0 54.401001 85.240997"
+   sodipodi:docname="triangle1_eq1.svg"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs196">
+    <rect
+       x="20.784351"
+       y="13.418367"
+       width="10.900212"
+       height="12.840906"
+       id="rect1293" />
+    <rect
+       x="26.940975"
+       y="31.770399"
+       width="11.300033"
+       height="13.374974"
+       id="rect1287" />
+    <rect
+       x="19.734531"
+       y="11.468933"
+       width="12.289473"
+       height="14.061547"
+       id="rect1279" />
+    <rect
+       x="16.809925"
+       y="13.061984"
+       width="23.415949"
+       height="22.901707"
+       id="rect1141" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview194"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.0396203"
+     inkscape:cx="26.932911"
+     inkscape:cy="57.232436"
+     inkscape:window-width="1294"
+     inkscape:window-height="704"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="layer1"
+     transform="matrix(1.7610468,0,0,1.7610468,-0.51755065,-3.6599527)">
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:1.13386;stroke-dasharray:none;stroke-dashoffset:4.20661;stroke-opacity:1"
+       d="M 9.4195899,6.7494052 V 39.055007 H 28.063373 Z"
+       id="path1085" />
+    <text
+       xml:space="preserve"
+       id="text1139"
+       style="font-style:italic;font-size:12px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Italic';white-space:pre;shape-inside:url(#rect1141);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.13386;stroke-dasharray:none;stroke-dashoffset:4.20661;stroke-opacity:1"
+       transform="translate(-16.01647,3.7273111)"><tspan
+         x="16.810547"
+         y="23.900705"
+         id="tspan1367">h</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text1277"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,  Italic';white-space:pre;shape-inside:url(#rect1279);opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.13386;stroke-dasharray:none;stroke-dashoffset:4.20661;stroke-opacity:1"
+       transform="translate(-6.2227921,27.870056)"><tspan
+         x="19.734375"
+         y="18.928688"
+         id="tspan1369">l</tspan></text>
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.755906;stroke-dasharray:none;stroke-dashoffset:4.20661;stroke-opacity:1"
+       d="m 16.011821,48.046144 3.812792,-6.603949"
+       id="path1283" />
+    <text
+       xml:space="preserve"
+       id="text1285"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Italic';white-space:pre;shape-inside:url(#rect1287);opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.755906;stroke-dasharray:none;stroke-dashoffset:4.20661;stroke-opacity:1"
+       transform="translate(-7.8644207,9.4986616)"><tspan
+         x="26.941406"
+         y="38.995001"
+         id="tspan1371">2</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text1291"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed,  Italic';white-space:pre;shape-inside:url(#rect1293);opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.755906;stroke-dasharray:none;stroke-dashoffset:4.20661;stroke-opacity:1"
+       transform="translate(1.6600255,1.6197493)"><tspan
+         x="20.785156"
+         y="23.364584"
+         id="tspan1373">l</tspan></text>
+  </g>
+</svg>

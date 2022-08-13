@@ -1,0 +1,48 @@
+.page-provas {
+    height: 100vh;
+    background: rgb(140,228,230);
+    background: linear-gradient(0deg, rgba(140,228,230,1) 0%, rgba(214,245,246,1) 35%, rgba(248,254,255,1) 70%, rgba(255,255,255,1) 100%);
+}
+#title-unicamp {
+    margin-top: 50px;
+    text-align: center;
+}
+.unicamp-mat-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 400px;
+    position: relative;
+    padding: 0;
+    margin: auto;
+    margin-top: 5vh;
+}
+.unicamp-mat-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 400px;
+    position: relative;
+    padding: 0;
+    margin: auto;
+    margin-top: 5vh;
+}
+.unicamp-mat-list li {
+    background: rgb(255, 255, 255);
+    border: 2px inset rgb(146, 207, 218);
+    padding: 10px 30px;
+    margin-bottom: 10px;
+}
+.unicamp-mat-list li:hover {
+    background-color: rgb(92, 160, 160);
+    color: rgb(248, 254, 255);
+}
+.unicamp-mat {
+    text-decoration: none;
+    color: #000;
+}
+
+.parag-unicamp {
+    text-align: center;
+    margin: 15px;
+}

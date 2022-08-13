@@ -1,0 +1,78 @@
+.body-texto {
+    background: rgb(248, 254, 255);
+    width: 70vw;
+    margin: auto;
+    line-height: 1.8;
+    padding-bottom: 50px;
+}
+.body-texto h1, .body-texto h2 {
+    text-align: center;
+}
+.img-questao {
+    display: block;
+    margin: auto;
+}
+.span {
+    font-weight: bold;
+}
+#parag {
+    display: inline;
+}
+#span {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+#span span {
+    visibility: hidden;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgb(0, 0, 0);
+    font-weight: inherit;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+#span:hover span {
+    visibility: visible;
+}
+#resposta {
+    display: inline-block;
+    background: rgb(255, 176, 123);
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+#resposta-q10 {
+    display: block;
+    background: rgb(255, 176, 123);
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 10px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px auto;
+    box-sizing: border-box;
+}
+.img-sphere {
+    margin: 10px auto;
+}
+#equations-q13 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin: auto;
+}
+#resp-q13 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 320px;
+    margin: auto;
+}
