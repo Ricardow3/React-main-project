@@ -5,6 +5,8 @@ import "./style.css";
 const Aside = (props) => {
     const arrow_down_url = "/img/arrow_down.svg";
     const arrow_up_url = "/img/arrow_up.svg";
+    const [arrowDownMod, setArrowDownMod] = useState("arrow");
+    const [arrowUpMod, setArrowUpMod] = useState("arrow-hidden");
     const [title, setTitle] = useState(props.name);
     const [lastQ, setlastQ] = useState(props.number);
     const [lista, setLista] = useState(props.listQ);
@@ -13,10 +15,13 @@ const Aside = (props) => {
     const mouseclickQuestao = () => {
         var menuQuestao = document.querySelector(".question-list");
         menuQuestao.classList.toggle("question-list-responsive");
-        if (document.getElementById("arrow").src == "http://localhost:3000" + arrow_down_url) {
-            document.getElementById("arrow").src = arrow_up_url;
+        var arrowDown = document.getElementById("arrow-down");
+        if (arrowDown.className === "arrow") {
+            setArrowDownMod("arrow-hidden");
+            setArrowUpMod("arrow");
         } else {
-            document.getElementById("arrow").src = arrow_down_url;
+            setArrowDownMod("arrow");
+            setArrowUpMod("arrow-hidden");
         }
     }
 
@@ -33,7 +38,7 @@ const Aside = (props) => {
 
     const setPage = (i, v) => {
         for (let x=0; x < lista.length; x++) {
-            if (lista[i] == v) {
+            if (lista[i] === v) {
                 props.Page("q" + v);
             }
         }
@@ -47,19 +52,17 @@ const Aside = (props) => {
             var int = setInterval(function() {
             window.scrollTo(0, i);
             i -= 50;
-            if (i == 0) {
+            if (i === 0) {
                 window.scrollTo(0, i);
                 clearInterval(int);
             } 
-        }, 10);
+        }, 20);
         } else {
             window.scrollTo(0, 0);
         }
-        if (document.getElementById("arrow").src == "http://localhost:3000" + arrow_down_url) {
-            document.getElementById("arrow").src = arrow_up_url;
-        } else {
-            document.getElementById("arrow").src = arrow_down_url;
-        }
+
+        setArrowDownMod("arrow");
+        setArrowUpMod("arrow-hidden");
     }
 
     const questaoLista = (lista) => {
@@ -83,8 +86,10 @@ const Aside = (props) => {
 
     return (
         <aside className="questao-choice">
-            <div id="question-menu" onClick={mouseclickQuestao}><p> {title} </p>
-            <img id="arrow" src={arrow_down_url} alt="ONE"></img>
+            <div id="question-menu" onClick={mouseclickQuestao}>
+            <p> {title} </p>
+            <img id="arrow-down" className= {arrowDownMod} src={arrow_down_url} alt="ONE"></img>
+            <img id="arrow-up" className= {arrowUpMod} src={arrow_up_url} alt="ONE"></img>
             </div>
             <ul className="question-list" type="none">
                 {questaoLista(lista)}

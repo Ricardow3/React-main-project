@@ -39,3 +39,10 @@ aside div img {
 .question-list-responsive {
     visibility: visible;
 }
+
+.arrow {
+    display: block
+}
+.arrow-hidden {
+    display: none;
+}
