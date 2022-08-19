@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from '../Home';
 import FuvestMat from '../FuvestMat';
 import FuvestMat2022 from '../FuvestMat2022';
@@ -27,7 +27,21 @@ import UfrgsFis2020 from '../UfrgsFis2020';
 import UfrgsFis2022 from '../UfrgsFis2022';
 
 
-const Rotas = () => {
+const Rotas = () => {     
+
+    const mobileScreen = window.matchMedia("(max-width: 475px)").matches;
+    if (mobileScreen) {
+        return (
+            <div className='mobile'>
+                <div className="logo-mobile">
+                    <img src="./img/one.svg" alt="ONE"></img>
+                    <h1>resoluções</h1>
+                </div>
+                <p>Disponível em breve para dispositivos móveis</p>
+            </div>
+        )
+    }
+
     return (
     <BrowserRouter>
     <Routes>
@@ -56,7 +70,6 @@ const Rotas = () => {
         <Route path='ufrgs-fis-2019' element= { <UfrgsFis2019 /> } />
         <Route path='ufrgs-fis-2020' element= { <UfrgsFis2020 /> } />
         <Route path='ufrgs-fis-2022' element= { <UfrgsFis2022 /> } />
-
     </Routes>
     </BrowserRouter>  
     );

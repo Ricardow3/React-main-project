@@ -3,3 +3,22 @@
     background: rgb(140,228,230);
     background: linear-gradient(0deg, rgba(140,228,230,1) 0%, rgba(214,245,246,1) 35%, rgba(248,254,255,1) 70%, rgba(255,255,255,1) 100%); 
 }
+.mobile p {
+    font-size: 18pt;
+    text-align: center;
+    margin: 30px;
+    padding: 5px;
+    border: 3px solid rgb(56, 120, 155);
+    border-radius: 15px;
+}
+.logo-mobile {
+    font-size: 18pt;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    padding: 20px;
+    width: 300px;
+}
+.logo-mobile img {
+    width: 140px;
+}
