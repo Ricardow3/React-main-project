@@ -1,0 +1,30 @@
+.navbar-responsive {
+    display: none;
+}
+.navbar-hidden {
+    display: none;
+}
+
+@media screen and (max-width: 925px) {
+    .navbar-responsive {
+        display: block;
+        background-color: rgba(255, 255, 255, 0.75);
+        text-align: center;
+        font-weight: bold;
+        width: 150px;
+        border: 2px solid rgb(56, 120, 155);
+        border-radius: 10px;
+        position: absolute;
+        top: 87px;
+        right: 10px;
+    }
+    .navbar-hidden {
+        display: none;
+    }
+    .navbar-responsive ul {
+        cursor: default;
+    }
+    .navbar-responsive li:hover {
+        background-color: rgba(56, 120, 155, 0.25);
+    }
+}

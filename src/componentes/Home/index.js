@@ -6,7 +6,8 @@ import MainMenu from '../MainMenu';
 const Home = () => {
     return (
         <div className="main-menu">
-            <Header link ='/' />
+            <Header link ='/' imgId = 'navbar-display-none' menuId = 'menu-header-resp'
+            navbarRender = {false} />
             <MainMenu />
         </div>
     )

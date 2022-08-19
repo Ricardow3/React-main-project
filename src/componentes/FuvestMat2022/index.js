@@ -6,7 +6,7 @@ const FuvestMat2022 = () => {
 
     return (
         <div>
-            <Header link = 'fuvest-mat' vestibular = 'Fuvest: outras provas' outros = 'Outros vestibulares' />
+            <Header link = '/fuvest-mat' vestibular = 'Fuvest: outras provas' outros = 'Outros vestibulares' />
             <div className="soon">
                 <h1>Em breve</h1>
                 <img src="./img/gear_icon.svg" alt="gear"></img>

@@ -23,7 +23,11 @@ const FuvestMat2021 = () => {
 
     return (
         <div>
-            <Header link = '/fuvest-mat' vestibular = 'Fuvest: outras provas' outros = 'Outros vestibulares' />
+            <Header 
+            link = '/fuvest-mat' vestibular = 'Fuvest: outras provas' outros = 'Outros vestibulares' 
+            navbarRender = {true} number = {4} 
+            navbarList = {[9, 10, 13]}
+            navbarPage = {newpageFunction} />
             <Aside 
             Page = {newpageFunction} 
             name = 'Questão 4' number = {4} 

@@ -19,7 +19,11 @@ const UfrgsMat2022 = () => {
 
     return (
         <div>
-            <Header link = '/ufrgs-mat' vestibular = 'UFRGS: outras provas' outros = 'Outros vestibulares' />
+            <Header 
+            link = '/ufrgs-mat' vestibular = 'UFRGS: outras provas' outros = 'Outros vestibulares' 
+            navbarRender = {true} number = {46} 
+            navbarList = {[53]}
+            navbarPage = {newpageFunction} />
             <Aside
             Page = {newpageFunction}
             name = 'Questão 46' number = {46}

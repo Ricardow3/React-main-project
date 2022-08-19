@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 const FuvestFis = () => {
     return (
         <div className="page-provas">
-            <Header link = '/fuvest-mat' vestibular = 'Fuvest: prova de matemática' />
+            <Header navbarRender = {false} 
+            link = '/fuvest-mat' vestibular = 'Fuvest: prova de matemática' imgId = 'navbar-display-none' menuId = 'menu-header-resp' />
             <h1 id="title-fuvest">Fuvest: Provas de Física</h1>
             <ul className="fuvest-fis-list" type="none">
                 <Link className="fuvest-fis" to='/fuvest-fis-2022'><li>2022</li></Link>

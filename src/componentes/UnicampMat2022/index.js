@@ -20,7 +20,11 @@ const UnicampMat2022 = () => {
 
     return (
         <div>
-            <Header link = '/' vestibular = 'Unicamp: outras provas' outros = 'Outros vestibulares' />
+            <Header 
+            link = '/unicamp-mat' vestibular = 'Unicamp: outras provas' outros = 'Outros vestibulares' 
+            navbarRender = {true} number = {20} 
+            navbarList = {[24]}
+            navbarPage = {newpageFunction} />
             <Aside 
             Page = {newpageFunction}
             name = 'Questão 20' number = {20}

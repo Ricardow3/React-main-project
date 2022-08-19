@@ -58,7 +58,7 @@ const Q20_unicamp2022 = () => {
             <p>Para&nbsp; <span ref={eq9}></span>,</p>
             <div style={{fontSize: 20}} ref={eq10}></div>
             <p>
-                Divindo uma equação pela outra, chega-se à igualdade&nbsp; <span ref={eq11}></span> &nbsp;conclui-se que o sistema não possui solução. <strong id="resposta">Essa é a alternativa correta.</strong>
+                Divindo uma equação pela outra, chega-se à igualdade&nbsp; <span ref={eq11}></span>. Conclui-se que o sistema não possui solução. <strong id="resposta">Essa é a alternativa correta.</strong>
             </p>
             <p>
                 Resolvendo ainda para&nbsp; <span ref={eq12}></span>, a fim de verificar todas as alternativas,

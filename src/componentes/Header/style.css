@@ -7,7 +7,6 @@ header {
     padding-left: calc(5% + 10px);
     padding-right: calc(5% + 6px);
     border-bottom: 4px solid rgb(56, 120, 155);
-    /* box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.42); */
 }
 header h1 {
     display: inline;
@@ -18,8 +17,18 @@ header h1 {
 header img {
     width: 100px;
 }
-header nav {
+header .nav-header {
     font-size: 0.8rem;
+}
+header ul {
+    padding: 0;
+}
+
+.navbar-button, .navbar-clicked {
+    display: none;
+}
+.navbar-colored, .navbar-colored-clicked {
+    display: none;
 }
 .link-header, .logo-link {
     text-decoration: none;
@@ -27,4 +36,29 @@ header nav {
 }
 .link-header:hover {
     color: rgb(136, 183, 211);
+}
+
+@media screen and (max-width: 925px) {
+    .nav-header {
+        display: flex;
+        width: 200px;
+        justify-content: space-between;
+    }
+    .navbar-button {
+        display: block;
+        width: 30px;
+    }
+    .navbar-clicked {
+        display: none;
+    }
+    .navbar-colored-clicked {
+        display: block;
+        width: 30px;
+    }
+    #navbar-display-none {
+        display: none;
+    }
+    #menu-header-resp {
+        width: fit-content;
+    }
 }

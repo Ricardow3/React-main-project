@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="66.179001mm"
+   height="62.875mm"
+   viewBox="0 0 66.179 62.875"
+   version="1.1"
+   id="svg5"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="powerstroke"
+       id="path-effect17581"
+       is_visible="true"
+       lpeversion="1"
+       offset_points="2,0"
+       not_jump="false"
+       sort_points="true"
+       interpolator_type="CubicBezierJohan"
+       interpolator_beta="0.2"
+       start_linecap_type="zerowidth"
+       linejoin_type="extrp_arc"
+       miter_limit="4"
+       scale_width="1"
+       end_linecap_type="zerowidth" />
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-67.180129,-13.419111)">
+    <rect
+       style="fill:#4dba41;fill-opacity:1;stroke:#000000;stroke-width:0.457343;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:1.13386;stroke-opacity:1"
+       id="rect1467"
+       width="21.019735"
+       height="23.383947"
+       x="87.632141"
+       y="-16.862129"
+       transform="matrix(0.79805562,0.60258379,0,1,0,0)" />
+    <path
+       style="fill:#d73297;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:1.13386;stroke-opacity:1"
+       d="M 86.710244,71.993678 128.51444,67.231191 V 43.847242 l -41.804196,4.76249 z"
+       id="path2877" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.457343;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:1.13386;stroke-opacity:1"
+       id="rect2821"
+       width="21.019735"
+       height="23.383947"
+       x="140.01471"
+       y="-53.189495"
+       transform="matrix(0.79805563,0.60258378,0,1,0,0)" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:1.13386;stroke-opacity:1"
+       d="M 69.935325,59.327526 111.73952,54.565042 V 31.181096 L 69.935325,35.94358 v 23.383946"
+       id="path2935" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:1.13386;stroke-opacity:1"
+       d="M 69.935325,35.94358 128.51444,67.231189"
+       id="path17510" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:1.13386;stroke-opacity:1"
+       d="m 91.036755,43.286029 c 0.139209,-0.238453 0.324153,-0.501595 0.598568,-0.819125 0.213281,-0.246791 0.432444,-0.472663 0.700194,-0.747958 0.225558,-0.231914 0.472955,-0.486313 0.697766,-0.74919 0.217765,-0.254639 0.421946,-0.525509 0.591282,-0.82282 1.545469,-2.713459 2.573788,-5.625033 3.226556,-8.435096 0.860065,-3.702448 1.007214,-6.958452 1.007214,-8.980286 0,2.021834 -0.147149,5.277838 -1.007214,8.980286 -0.652768,2.810063 -1.681087,5.721637 -3.226555,8.435094 -0.169337,0.297313 -0.373518,0.568183 -0.591283,0.822822 -0.224811,0.262877 -0.472208,0.517276 -0.697766,0.74919 -0.26775,0.275295 -0.486913,0.501167 -0.700194,0.747958 -0.274415,0.31753 -0.459359,0.580672 -0.598568,0.819125 z"
+       id="path17579"
+       inkscape:path-effect="#path-effect17581"
+       inkscape:original-d="m 91.036755,43.286029 c 0.684094,-1.171789 1.916668,-1.960734 2.58781,-3.139093 2.959122,-5.19548 4.23377,-11.492982 4.23377,-17.415382" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:1.13386;stroke-opacity:1"
+       d="m 90.953232,40.835183 v 3.007125 l 2.352813,-0.871852 z"
+       id="path17583" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;font-family:C059;-inkscape-font-specification:C059;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:1.13386;stroke-opacity:1"
+       x="80.396866"
+       y="20.025389"
+       id="text17639"><tspan
+         sodipodi:role="line"
+         id="tspan17637"
+         style="stroke:none;stroke-width:0.4"
+         x="80.396866"
+         y="20.025389">Diâmetro da esfera</tspan></text>
+  </g>
+</svg>

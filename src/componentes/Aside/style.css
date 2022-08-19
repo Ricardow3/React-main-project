@@ -1,10 +1,10 @@
-aside {
+.questao-choice {
     position: absolute;
     top: 100px;
     left: 4%;
     cursor: default;
 }
-aside div img {
+.questao-choice div img {
     width: 12px;
 }
 .questao-responsive {
@@ -24,7 +24,7 @@ aside div img {
     box-sizing: border-box;
 }
 .question-list {
-    visibility: hidden;
+    display: none;
     padding: 0;
 }
 .question-list li {
@@ -37,7 +37,7 @@ aside div img {
     box-sizing: border-box;
 }
 .question-list-responsive {
-    visibility: visible;
+    display: block;
 }
 
 .arrow {
@@ -46,3 +46,14 @@ aside div img {
 .arrow-hidden {
     display: none;
 }
+
+@media screen and (max-width: 1120px) {
+    .questao-choice {
+        left: 10px;
+    }
+}
+@media screen and (max-width: 925px) {
+    .questao-choice {
+        display: none;
+    }
+} 
