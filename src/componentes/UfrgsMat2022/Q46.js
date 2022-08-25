@@ -15,7 +15,7 @@ const Q46_ufrgs2022 = () => {
         <section className="body-texto">
             <h1>UFRGS 2022 - Prova de Matemática</h1>
             <h2>Questão 46</h2>
-            <img className="img-questao img-main" src="./img/ufrgs2022-img/ufrgs-mat-2022-Q46.png" title="Questão 46 - Prova de matemática; UFRGS 2022"></img>
+            <img className="img-questao img-main" src="./img/ufrgs2022-img/ufrgs-mat-2022-Q46.jpeg" title="Questão 46 - Prova de matemática; UFRGS 2022"></img>
             <p>Para resolver esse somatório, basta aplicar uma propriedade conhecida do logaritmo:</p>
             <div style={{fontSize: 20}} ref={eq1}></div>
             <p>Primeiro, é feita a simplificação da fração dentro de cada logaritmo. Como o denominador das frações cresce em progressão aritmética, os termos ficam:</p>

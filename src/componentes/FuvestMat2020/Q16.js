@@ -24,7 +24,7 @@ const Q16_fuvest2020 = () => {
         <section className="body-texto">
             <h1>Fuvest 2020 - Prova de Matemática</h1>
             <h2>Questão 16</h2>
-            <img className="img-questao img-main" src="./img/fuvest2020-img/q16-img/fuvest-mat-2020-q16.png" title="Questão 16 - Prova de matemática; FUVEST 2020"></img>
+            <img className="img-questao img-main" src="./img/fuvest2020-img/q16-img/fuvest-mat-2020-q16.jpeg" title="Questão 16 - Prova de matemática; FUVEST 2020"></img>
             <p>
                 Começamos deduzindo a fórmula para calcular a área do paralelogramo. As variáveis necessárias são descritas na imagem abaixo.
             </p>

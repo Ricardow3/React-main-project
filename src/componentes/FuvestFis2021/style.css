@@ -1,0 +1,12 @@
+.span-false {
+    color: rgb(228, 48, 63);
+    font-weight: bold;
+    font-style: normal;
+}
+.quote-q45 {
+    font-style: italic;
+    background-color: rgba(200, 255, 255, 0.5);
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

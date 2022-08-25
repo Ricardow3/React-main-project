@@ -76,3 +76,17 @@
     width: 320px;
     margin: auto;
 }
+#resposta-q6 {
+    display: block;
+    background: rgb(255, 176, 123);
+    padding: 0 10px;
+    border-radius: 5px;
+    
+}
+#equations-q6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+    margin: 5px auto;
+}

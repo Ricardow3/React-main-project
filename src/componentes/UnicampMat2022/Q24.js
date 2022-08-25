@@ -19,7 +19,7 @@ const Q24_unicamp2022 = () => {
             <section className="body-texto">
             <h1>Unicamp 2022 - Prova de Matemática</h1>
             <h2>Questão 24</h2>
-            <img className="img-questao img-main" src="./img/unicamp2022-img/Q24-img/fuvest-mat-2021-Q24.png" title="Questão 24 - Prova de matemática; Unicamp 2021"></img>
+            <img className="img-questao img-main" src="./img/unicamp2022-img/Q24-img/fuvest-mat-2021-Q24.jpeg" title="Questão 24 - Prova de matemática; Unicamp 2021"></img>
             <p>A largura do canal é obtida pela soma de algumas projeções das medidas dadas na figura. O ângulo formado entre o eixo longitudinal do navio e a reta perpendicular a direção do canal &#40;direção horizontal na imagem&#41; equivale à <span className="div-alpha"></span>.
             </p>
             <img className="img-questao" src="./img/unicamp2022-img/Q24-img/alpha-1.svg" title="Ângulo projetado entre o eixo longitudinal do navio e a horizontal"></img>

@@ -21,7 +21,7 @@ const Q10_fuvest2021 = () => {
             <section className="body-texto">
                 <h1>Fuvest 2021 - Prova de Matemática</h1>
                 <h2>Questão 10</h2>
-                <img className="img-questao img-main" src="./img/fuvest2021-img/Q10-img/fuvest-mat-2021-Q10.png" title="Questão 10 - Prova de Matemática; FUVEST 2021"></img>
+                <img className="img-questao img-main" src="./img/fuvest2021-img/Q10-img/fuvest-mat-2021-Q10.jpeg" title="Questão 10 - Prova de Matemática; FUVEST 2021"></img>
                 <p>
                 Para encontrar a região hachurada, é necessário calcular a equação do círculo que delimita a região por cima, e então calcular a equação da reta que delimita a região por baixo.
                 A equação do círculo com centro na origem <math><mo>&#40;</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>&#41;</mo></math> é descrita como &nbsp;

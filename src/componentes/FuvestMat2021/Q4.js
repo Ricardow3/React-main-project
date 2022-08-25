@@ -16,7 +16,7 @@ const Q4_fuvest2021 = () => {
             <section className="body-texto">
                 <h1>Fuvest 2021 - Prova de Matemática</h1>
                 <h2>Questão 4</h2>
-                <img className="img-questao img-main" src="./img/fuvest2021-img/Q4-img/fuvest-mat-2021-Q4.png" title="Questão 4 - Prova de matemática; FUVEST 2021"></img>
+                <img className="img-questao img-main" src="./img/fuvest2021-img/Q4-img/fuvest-mat-2021-Q4.jpeg" title="Questão 4 - Prova de matemática; FUVEST 2021"></img>
                 <p>Para calcular a área total do pentágono é necessário somar os segmentos de área formados dentro de cada quadrado e triângulo. <br /> Como os vértices 1 e 4 do pentágono coincidem com o ponto central dos quadrados, cada um dos segmentos de área em azul equivale a <math><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>Q</mi></math>, onde <math><mi>Q</mi></math> é a área de cada quadrado.
                 </p>
                 <img className="img-questao" src="./img/fuvest2021-img/Q4-img/fuvest-mat-2021-Q4-edit.svg" title="Ilustração dos vértices e segmentos de área do pentágono"></img>

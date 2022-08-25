@@ -2,6 +2,11 @@
     font-family: 'Noto Serif', serif;
     margin: 0;
 }
+@font-face {
+    font-family: 'Nimbus Sans Bold';
+    src: local('Nimbus Sans Bold'), url("./fonts/NimbusSanL-Bol.otf");
+    
+}
 body {
     background: rgb(248, 254, 255);
 }

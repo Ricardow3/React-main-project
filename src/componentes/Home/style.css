@@ -22,3 +22,9 @@
 .logo-mobile img {
     width: 140px;
 }
+.title-one-mobile {
+    -webkit-text-stroke: 2px black;
+    font-family: 'Nimbus Sans Bold', Arial;
+    font-size: 50pt;
+    color: white;
+}

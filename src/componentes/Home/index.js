@@ -20,7 +20,7 @@ const Home = () => {
         return (
             <div className='mobile'>
                 <div className="logo-mobile">
-                    <img src="./img/one.svg" alt="ONE"></img>
+                    <h1 className='title-one-mobile'>One</h1>
                     <h1>resoluções</h1>
                 </div>
                 <p>Disponível em breve para dispositivos móveis</p>

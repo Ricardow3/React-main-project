@@ -27,7 +27,7 @@ const Q20_unicamp2022 = () => {
             <section className="body-texto">
             <h1>Unicamp 2022 - Prova de Matemática</h1>
             <h2>Questão 20</h2>
-            <img className="img-questao img-main" src="./img/unicamp2022-img/Q20-img/unicamp-2022-mat-Q20.png" title="Questão 24 - Prova de matemática; Unicamp 2021"></img>
+            <img className="img-questao img-main" src="./img/unicamp2022-img/Q20-img/unicamp-2022-mat-Q20.jpeg" title="Questão 24 - Prova de matemática; Unicamp 2021"></img>
             <p>A transposta de uma matriz é encontrada substituindo as suas respectivas linhas pelas suas colunas. A diagonal principal se mantém e os outros termos são espelhados em relação à essa diagonal.</p>
             <img className="img-questao" src="./img/unicamp2022-img/Q20-img/matriz-1.svg" title="Termos substituidos em uma matriz transposta"></img>
             <p>

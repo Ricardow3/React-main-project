@@ -47,13 +47,13 @@ const Aside = (props) => {
         setAside(v);
         setPage(i, v);
 
-        var i = 500;
+        var c = 500;
         if (window.scrollY > 500) {
             var int = setInterval(function() {
-            window.scrollTo(0, i);
-            i -= 50;
-            if (i === 0) {
-                window.scrollTo(0, i);
+            window.scrollTo(0, c);
+            c -= 50;
+            if (c === 0) {
+                window.scrollTo(0, c);
                 clearInterval(int);
             } 
         }, 20);
@@ -75,7 +75,7 @@ const Aside = (props) => {
 
     window.addEventListener("scroll", function() {
         var questoes = this.document.querySelector(".questao-choice");
-        questoes.classList.toggle("questao-responsive", window.scrollY > 80);
+        questoes.classList.toggle("questao-responsive", window.scrollY > 85);
     })
 
     // var menuQuestaoGlobal = document.querySelector(".question-list");

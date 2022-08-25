@@ -21,7 +21,7 @@ const Q53_ufrgs2022 = () => {
         <section className="body-texto">
             <h1>UFRGS 2022 - Prova de Matemática</h1>
             <h2>Questão 53</h2>
-            <img className="img-questao img-main" src="./img/ufrgs2022-img/Q53-img/ufrgs-mat-2022-Q53.png" title="Questão 53 - Prova de matemática; UFRGS 2022"></img>
+            <img className="img-questao img-main" src="./img/ufrgs2022-img/Q53-img/ufrgs-mat-2022-Q53.jpeg" title="Questão 53 - Prova de matemática; UFRGS 2022"></img>
             <p>
                 Essa questão parece complexa, mas pode ser resolvida por partes, dividindo os segmentos de área mostrados e somando-os para encontrar as áreas resultantes. Através dessa abordagem, divivimos as áreas relevantes e designamos com uma variável qualquer, como mostrado abaixo.
             </p>

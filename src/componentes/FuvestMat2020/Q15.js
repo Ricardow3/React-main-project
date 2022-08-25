@@ -17,7 +17,7 @@ const Q15_fuvest2020 = () => {
         <section className="body-texto">
             <h1>Fuvest 2020 - Prova de Matemática</h1>
             <h2>Questão 15</h2>
-            <img className="img-questao img-main" src="./img/fuvest2020-img/q15-img/fuvest-mat-2020-q15.png" title="Questão 15 - Prova de Matemática; Fuvest 2020"></img>
+            <img className="img-questao img-main" src="./img/fuvest2020-img/q15-img/fuvest-mat-2020-q15.jpeg" title="Questão 15 - Prova de Matemática; Fuvest 2020"></img>
             <p>
                 Para resolver esse problema é dito na questão que o raio do rolo aumenta no valor da espessura da fita, a cada volta que é a fita é dada. Essa consideração é importante pois, rigorosamente falando, o raio do rolo aumenta de forma contínua conforme a fita é enrolada, em um formato de espiral.
             </p>

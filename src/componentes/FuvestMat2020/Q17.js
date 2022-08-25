@@ -11,7 +11,7 @@ const Q17_fuvest2020 = () => {
         <section className="body-texto">
             <h1>Fuvest 2020 - Prova de Matemática</h1>
             <h2>Questão 17</h2>
-            <img className="img-questao img-main" src="./img/fuvest2020-img/q17-img/fuvest-mat-2020-q17.png" title="Questão 17 -Prova de Matemática; Fuvest 2020"></img>
+            <img className="img-questao img-main" src="./img/fuvest2020-img/q17-img/fuvest-mat-2020-q17.jpeg" title="Questão 17 -Prova de Matemática; Fuvest 2020"></img>
             <p>
                 Esse problema exige uma boa noção espacial, pois é necessário imaginar como um paralelepípedo se encaixa dentro de uma esfera, sendo delimitado pela mesma. O paralelepípedo possui todas as faces retangulares, ou seja, todas as arestas adjacentes formam ângulos de 90° entre si.
             </p>

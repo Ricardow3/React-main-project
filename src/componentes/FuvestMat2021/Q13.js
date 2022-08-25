@@ -17,7 +17,7 @@ const Q13_fuvest2021 = () => {
             <section className="body-texto">
                 <h1>Fuvest 2021 - Prova de Matemática</h1>
                 <h2>Questão 13</h2>
-                <img className="img-questao img-main" src="./img/fuvest2021-img/Q13-img/fuvest-mat-2021-Q13.png" title="Questão 13 - Prova de Matemática; FUVEST 2021"></img>
+                <img className="img-questao img-main" src="./img/fuvest2021-img/Q13-img/fuvest-mat-2021-Q13.jpeg" title="Questão 13 - Prova de Matemática; FUVEST 2021"></img>
                 <p>
                     Como a terra é considerada perfeitamente esférica, a medida da circunferência em qualquer direção &#40;meridianos e linha do equador&#41; é a mesma.
                     Os três trajetos descritos na questão podem ser calculados, portanto, pelo mesmo comprimento de circunferência, como mostrado na imagem abaixo.

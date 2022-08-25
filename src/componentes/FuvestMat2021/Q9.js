@@ -13,7 +13,7 @@ const Q9_fuvest2021 = () => {
             <section className="body-texto">
                 <h1>Fuvest 2021 - Prova de Matemática</h1>
                 <h2>Questão 9</h2>
-                <img className="img-questao img-main" src="./img/fuvest2021-img/Q9-img/fuvest-mat-2021-Q9.png" title="Questão 9 - Prova de matemática; FUVEST 2021"></img>
+                <img className="img-questao img-main" src="./img/fuvest2021-img/Q9-img/fuvest-mat-2021-Q9.jpeg" title="Questão 9 - Prova de matemática; FUVEST 2021"></img>
                 <p>
                 O segmento <math><mi>FB</mi></math> equivale a metade do lado do triângulo, ou seja, <math><mi>FB</mi><mo>=</mo><mn>3</mn></math>.
                 Vamos demostrar a equação que relaciona a altura <math><mi>h</mi></math> do triângulo com o seu lado <math><mi>l</mi></math>.
