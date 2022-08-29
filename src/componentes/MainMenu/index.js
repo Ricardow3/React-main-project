@@ -21,6 +21,7 @@ const MainMenu = () => {
     }
     return (
         <div>
+            <p className='parag-mainmenu'>Questões resolvidas de matemática e física dos vestibulares <span>Fuvest, Unicamp, UFRGS e Enem</span></p>
             <nav className="nav-select">
                 <div id="button-mat" onMouseOver={mouseoverMat} onMouseOut={mouseoutMat}>
                     Matemática
@@ -36,14 +37,17 @@ const MainMenu = () => {
                     <Link className='provas' to='/fuvest-mat'><li>Fuvest</li></Link>
                     <Link className='provas' to='/unicamp-mat'><li>Unicamp</li></Link>
                     <Link className='provas' to='/ufrgs-mat'><li>UFRGS</li></Link>
+                    <Link className='provas' to='/enem-mat'><li id='enem-mat'>ENEM</li></Link>
                 </ul>
                 <ul id="list-fis" className="fis" type="none" onMouseOver={mouseoverFis} onMouseOut={mouseoutFis}>
                     <Link className='provas' to='/fuvest-fis'><li>Fuvest</li></Link>
                     <Link className='provas' to='/unicamp-fis'><li>Unicamp</li></Link>
                     <Link className='provas' to='/ufrgs-fis'><li>UFRGS</li></Link>
+                    <Link className='provas' to='/enem-fis'><li id='enem-fis'>ENEM</li></Link>
                 </ul>
             </div>
-        </div> 
+            <p className='contato'>Contato: info@oneresolucoes.org</p>
+        </div>
     );
 }
 
