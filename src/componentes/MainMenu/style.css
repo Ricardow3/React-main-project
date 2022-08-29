@@ -5,7 +5,7 @@
     margin: auto;
 }
 .nav-select {
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 .select ul {
     padding: 0;
@@ -21,9 +21,11 @@
     width: 207px;
     box-sizing: border-box;
     background: rgb(146, 207, 218);
+    border-radius: 12px;
 } 
 .select #list-fis {
     background: rgb(146, 207, 218);
+    border-radius: 12px;
 }
 #button-fis, .select #list-fis {
     width: 138px;
@@ -37,6 +39,7 @@
     background: rgb(146, 207, 218);
     padding: 4px 8px 4px 16px;
     border: none;
+    border-radius: 12px;
 }
 
 .mat, .fis {
@@ -47,6 +50,7 @@
 }
 .select li {
     border-top: 2px solid rgb(248, 254, 255);
+    border-radius: 12px;
 }
 .select li:hover {
     background-color: rgb(92, 160, 160);
@@ -55,4 +59,34 @@
 .provas {
     text-decoration: none;
     color: #000;
+}
+#enem-mat, #enem-fis {
+    background: rgb(240, 152, 140);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 1px 1px rgb(255, 88, 66);
+}
+#enem-mat:hover, #enem-fis:hover {
+    background-color: rgb(255, 88, 66);
+}
+.parag-mainmenu {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.6rem;
+    width: 650px;
+    text-align: center;
+    line-height: 40px;
+    margin: auto;
+    margin-top: 40px;
+    color: rgb(56, 120, 155);
+}
+.parag-mainmenu span {
+    color: rgb(255, 88, 66);
+}
+.contato {
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+    font-size: 1rem;
+    text-align: center;
+    position: relative;
+    margin-top: 10vh;
 }

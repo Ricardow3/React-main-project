@@ -1,0 +1,28 @@
+#title-enem {
+    margin-top: 50px;
+    text-align: center;
+}
+.enem-mat-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 400px;
+    position: relative;
+    padding: 0;
+    margin: auto;
+    margin-top: 5vh;
+}
+.enem-mat-list li {
+    background: rgb(255, 255, 255);
+    border: 2px inset rgb(146, 207, 218);
+    padding: 10px 30px;
+    margin-bottom: 10px;
+}
+.enem-mat-list li:hover {
+    background-color: rgb(92, 160, 160);
+    color: rgb(248, 254, 255);
+}
+.enem-mat {
+    text-decoration: none;
+    color: #000;
+}
