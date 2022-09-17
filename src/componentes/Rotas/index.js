@@ -27,6 +27,7 @@ import UfrgsFis2020 from '../UfrgsFis2020';
 import UfrgsFis2022 from '../UfrgsFis2022';
 import EnemMat from '../EnemMat/EnemMat';
 import EnemFis from '../EnemFis/EnemFis';
+import EnemFis2021 from '../EnemFis2021';
 
 
 const Rotas = () => {     
@@ -74,6 +75,7 @@ const Rotas = () => {
         <Route path='ufrgs-fis-2022' element= { <UfrgsFis2022 /> } />
         <Route path='enem-mat' element= { <EnemMat /> } />
         <Route path='enem-fis' element= { <EnemFis />} />
+        <Route path='enem-fis-2021' element= { <EnemFis2021 /> } />
     </Routes>
     </BrowserRouter>  
     );
