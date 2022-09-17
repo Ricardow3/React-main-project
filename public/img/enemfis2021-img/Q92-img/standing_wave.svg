@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="81.242996mm"
+   height="35.524998mm"
+   viewBox="0 0 81.242997 35.524998"
+   version="1.1"
+   id="svg5"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-48.652104,-42.725591)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.635;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 62.854066,54.461463 c 0,0 12.714649,-7.666397 26.280075,0 13.265779,7.497052 26.280079,0 26.280079,0"
+       id="path743"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.335;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.335, 0.67;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 62.854066,54.3879 c 0,0 12.714649,7.666397 26.280075,0 13.265779,-7.497052 26.280079,0 26.280079,0"
+       id="path1258"
+       sodipodi:nodetypes="csc" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.635;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect847"
+       width="9.1665831"
+       height="14.584591"
+       x="53.214199"
+       y="47.056423" />
+    <rect
+       style="fill:#fffffe;fill-opacity:1;stroke:#000000;stroke-width:0.635;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect957"
+       width="9.1665831"
+       height="14.584591"
+       x="115.6559"
+       y="47.056423" />
+    <circle
+       id="path1189"
+       style="fill:#ff0000;stroke:none;stroke-width:0.264583"
+       cx="89.13414"
+       cy="54.461452"
+       r="0.95250005" />
+    <circle
+       id="path1254"
+       style="fill:#ff0000;stroke:none;stroke-width:0.264583"
+       cx="62.380783"
+       cy="54.348717"
+       r="0.95250005" />
+    <circle
+       id="path1256"
+       style="fill:#ff0000;stroke:none;stroke-width:0.264583"
+       cx="115.6559"
+       cy="54.348717"
+       r="0.95250005" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.235;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 64.901766,63.780085 -2.344369,1.197769 2.210006,1.107011"
+       id="path3401" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.235;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 113.3575,63.780085 2.34438,1.197769 -2.21002,1.107011"
+       id="path3403" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.235;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 62.609027,65.012297 H 115.54101"
+       id="path3405" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;font-family:C059;-inkscape-font-specification:C059;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.235;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="64.218674"
+       y="73.263657"
+       id="text3465"><tspan
+         sodipodi:role="line"
+         id="tspan3463"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;font-family:C059;-inkscape-font-specification:C059;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.235"
+         x="64.218674"
+         y="73.263657">λ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:C059;-inkscape-font-specification:C059;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.235;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="69.766777"
+       y="72.17646"
+       id="text5697"><tspan
+         sodipodi:role="line"
+         id="tspan5695"
+         style="font-size:4.23333px;stroke-width:0.235"
+         x="69.766777"
+         y="72.17646">= comprimento de onda</tspan></text>
+  </g>
+</svg>

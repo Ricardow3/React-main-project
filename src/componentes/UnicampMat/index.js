@@ -14,7 +14,7 @@ const UnicampMat = () => {
                 <Link className="unicamp-mat" to='/unicamp-mat-2021'><li>2021</li></Link>
                 <Link className="unicamp-mat" to='/unicamp-mat-2020'><li>2020</li></Link>
             </ul>
-            <p className="parag-unicamp">* As questões de 2022 se referem a prova de conhecimentos gerais Q e X</p>
+            <p className="parag-prova">* As questões de 2022 se referem a prova de conhecimentos gerais Q e X</p>
         </div>
     )
 }

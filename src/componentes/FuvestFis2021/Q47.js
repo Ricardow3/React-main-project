@@ -7,7 +7,8 @@ const Q47_fuvestFis2021 = () => {
     useConstLatex("P", "peso-pendulum", 1);
     useConstLatex("F_t", "tan-force", 1);
     useConstLatex("F_r", "rad-force", 1);
-    useConstLatex("a_h", "accel-pendulum", 3);
+    useConstLatex("a", "accel-tan", 2);
+    useConstLatex("a_h", "accel-pendulum", 1);
     useConstLatex("x", "desl-pendulum", 1);
     useConstLatex("\\omega", "vel-pendulum", 1);
     const var1 = useElementDiv("L");
@@ -39,12 +40,12 @@ const Q47_fuvestFis2021 = () => {
                     Na figura acima, é mostrado o movimento de um pêndulo simples. O peso <span className="peso-pendulum" style={{fontSize: 20}}></span> do corpo pode ser decomposto nas forças <span className="tan-force" style={{fontSize: 20}}></span> e <span className="rad-force" style={{fontSize: 20}}></span>, que são chamadas de força tangencial e força radial, respectivamente. Durante o movimento, somente a força tangencial altera o magnitude da velocidade, pois ela atua na mesma direção do movimento. Aplicando a segunda lei de Newton no corpo, e considerando <span style={{fontSize: 18}} ref={eq1}></span>:
                 </p>
                 <div style={{fontSize: 20}} ref={eq2}></div>
-                <p>Onde <span className="accel-pendulum" style={{fontSize: 20}}></span> é a aceleração tangencial.</p>
+                <p>Onde <span className="accel-tan" style={{fontSize: 20}}></span> é a aceleração tangencial.</p>
                 <p>
                     Como o fio não varia o seu comprimento, a trajetória do movimento percorre o arco de um círculo. É possível obter o comprimento do fio <span style={{fontSize: 18}} ref={var1}></span> relacionando a aceleração tangencial com a aceleração angular do movimento.
                 </p>
                 <div style={{fontSize: 20}} ref={eq3}></div>
-                <p>Substituindo <span className="accel-pendulum" style={{fontSize: 20}}></span> na segunda lei de Newton e isolando a aceleração angular, temos:</p>
+                <p>Substituindo <span className="accel-tan" style={{fontSize: 20}}></span> na segunda lei de Newton e isolando a aceleração angular, temos:</p>
                 <div style={{fontSize: 20}} ref={eq4}></div>
                 <p>
                     É possível demonstrar, com deduções mais complexas, que a equação acima <strong>não</strong> é equivalente a de um <div id="span">movimento harmônico simples <span>Um exemplo de MHS é o movimento resultante de um sistema massa-mola, quando deslocado do seu ponto de equilíbrio</span></div>. Entretanto, o movimento do pêndulo se assemelha muito com um oscilador harmônico para ângulos pequenos.
