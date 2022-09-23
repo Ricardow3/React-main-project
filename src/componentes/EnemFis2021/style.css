@@ -1,7 +1,7 @@
 .italic {
     font-style: italic;
 }
-#q92-strong-blue {
+.strong-rose {
     color: rgb(196, 40, 113);
 }
 #resp-fis-q92 {
@@ -30,6 +30,24 @@
     font-size: 16pt;
     padding: 5px 10px;
     width: 120px;
+    border-radius: 5px;
+    margin: 5px auto;
+    box-sizing: border-box;
+}
+.eq_img {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+#resp-fis-q115 {
+    display: block;
+    background: rgb(255, 176, 123);
+    text-align: center;
+    font-size: 14pt;
+    padding: 5px 10px;
+    width: 300px;
     border-radius: 5px;
     margin: 5px auto;
     box-sizing: border-box;

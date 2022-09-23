@@ -1,11 +1,14 @@
 .questao-choice {
     position: absolute;
     top: 105px;
-    left: 4%;
+    left: 3%;
     cursor: default;
 }
 .questao-choice div img {
     width: 12px;
+}
+.questao-choice div p {
+    margin: auto;
 }
 .questao-responsive {
     position: fixed;
@@ -15,7 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 120px;
+    width: 130px;
     text-align: center;
     background: rgb(56, 120, 155);
     color: #fff;
@@ -29,7 +32,7 @@
 }
 .question-list li {
     background: rgb(176, 203, 218);
-    width: 120px;
+    width: 130px;
     text-align: center;
     padding: 4px;
     border-top: 2px solid rgb(248, 254, 255);
