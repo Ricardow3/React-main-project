@@ -19,7 +19,7 @@ const Q92_EnemFis2021 = () => {
                 <p>
                     O sino dos ventos mostrado na questão é um objeto semelhante ao instrumento musical denominado <span className="italic">Sinos tubulares</span> ou <span className="italic">Carrilhão sinfônico</span>.</p>
                 <p>
-                    O som emitido por qualquer instrumento é uma onda mecânica que se propaga pelo ar com a mesma frequência de vibração do instrumento, isso porque a frequência de uma onda não se altera quando ela passa de um meio de propagação para outro &#40;do instrumento para o ar&#41;. Já a velocidade de propagação de uma onda depende somente do meio de propagação, e não de seu comprimento de onda ou frequência, ocorre que <strong id="q92-strong-blue">ondas sonoras de frequências distintas se propagam com a mesma velocidade no ar</strong>, mas com velocidade maior em meios mais densos &#40;como a água&#41;.
+                    O som emitido por qualquer instrumento é uma onda mecânica que se propaga pelo ar com a mesma frequência de vibração do instrumento, isso porque a frequência de uma onda não se altera quando ela passa de um meio de propagação para outro &#40;do instrumento para o ar&#41;. Já a velocidade de propagação de uma onda depende somente do meio de propagação, e não de seu comprimento de onda ou frequência, ocorre que <strong className="strong-rose">ondas sonoras de frequências distintas se propagam com a mesma velocidade no ar</strong>, mas com velocidade maior em meios mais densos &#40;como a água&#41;.
                     Portanto, o som emitido por qualquer barra tem a mesma velocidade de propagação. 
                 </p>
                 <p>
