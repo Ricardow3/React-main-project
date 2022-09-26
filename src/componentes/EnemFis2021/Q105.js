@@ -48,7 +48,7 @@ const Q105_EnemFis2021 = () => {
                     Se a carga elétrica for positiva, a força aponta no sentido da palma, caso seja negativa, ela aponta no sentido contrário.
                 </p>
                 <p>
-                    Como o campo gravitacional aponta na direção perpendicular ao campo magnético, a velocidade inicial das cargas apontam para dentro da página, e a <strong className="strong-rose">força magnática sobre as cargas, positiva e negativa, apontam respectivamente para baixo e para cima</strong>, quando o diagrama é visto de cima.
+                    Como o campo gravitacional aponta na direção perpendicular ao campo magnético, a velocidade inicial das cargas apontam para dentro da página, e a <strong className="strong-rose">força magnética sobre as cargas, positiva e negativa, apontam respectivamente para baixo e para cima</strong>, quando o diagrama é visto de cima.
                 </p>
                 <p>A figura abaixo ilustra o sentido das forças em projeção isométrica &#40;tridimensional&#41;.</p>
                 <img src="./img/enemfis2021-img/Q105-img/forca-magnetica-1.svg" className="img-questao"></img>

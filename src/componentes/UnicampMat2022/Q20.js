@@ -44,8 +44,6 @@ const Q20_unicamp2022 = () => {
             </p>
             <div style={{fontSize: 22}} ref={eq3}></div>
             <p>Portanto, o sistema de equações fica:</p>
-            {/* \[ \large{ 2x + (3+k)y = 2021 } \] */}
-            {/* \[ \large{ (3+k)x + 2k^2y = 2022 } \] */}
             <div  style={{fontSize: 20}} ref={eq4}></div>
             <p id="parag">
                 Esse sistema possui três variáveis <span ref={eq5}></span> e somente duas <div id="span">equações linearmente independentes <span>equações que não podem ser escritas como uma combinação linear uma da outra</span> </div>, portanto possui infinitas soluções. Analisando as alternativas:
