@@ -28,3 +28,12 @@
         background-color: rgba(56, 120, 155, 0.25);
     }
 }
+@media screen and (max-width: 475px) {
+    .navbar-responsive {
+        width: 250px;
+        font-size: 1.2rem;
+    }
+    .navbar-responsive .questions {
+        padding: 8px;
+    }
+}

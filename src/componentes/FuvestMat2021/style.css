@@ -42,8 +42,9 @@
 #span:hover span {
     visibility: visible;
 }
-#resposta {
+#resposta-inline {
     display: inline-block;
+    font-size: 14pt;
     background: rgb(255, 176, 123);
     padding: 4px 10px;
     border-radius: 5px;
