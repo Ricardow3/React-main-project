@@ -26,25 +26,29 @@ import UfrgsFis2019 from '../UfrgsFis2019';
 import UfrgsFis2020 from '../UfrgsFis2020';
 import UfrgsFis2022 from '../UfrgsFis2022';
 import EnemMat from '../EnemMat/EnemMat';
+import EnemMat2019 from '../EnemMat2019';
+import EnemMat2020 from '../EnemMat2020';
 import EnemMat2021 from '../EnemMat2021';
 import EnemFis from '../EnemFis/EnemFis';
+import EnemFis2019 from '../EnemFis2019';
+import EnemFis2020 from '../EnemFis2020';
 import EnemFis2021 from '../EnemFis2021';
 
 
 const Rotas = () => {     
 
-    const mobileScreen = window.matchMedia("(max-width: 475px)").matches;
-    if (mobileScreen) {
-        return (
-            <div className='mobile'>
-                <div className="logo-mobile">
-                    <img src="./img/one.svg" alt="ONE"></img>
-                    <h1>resoluções</h1>
-                </div>
-                <p>Disponível em breve para dispositivos móveis</p>
-            </div>
-        )
-    }
+    // const mobileScreen = window.matchMedia("(max-width: 475px)").matches;
+    // if (mobileScreen) {
+    //     return (
+    //         <div className='mobile'>
+    //             <div className="logo-mobile">
+    //                 <img src="./img/one.svg" alt="ONE"></img>
+    //                 <h1>resoluções</h1>
+    //             </div>
+    //             <p>Disponível em breve para dispositivos móveis</p>
+    //         </div>
+    //     )
+    // }
 
     return (
     <BrowserRouter>
@@ -75,8 +79,12 @@ const Rotas = () => {
         <Route path='ufrgs-fis-2020' element= { <UfrgsFis2020 /> } />
         <Route path='ufrgs-fis-2022' element= { <UfrgsFis2022 /> } />
         <Route path='enem-mat' element= { <EnemMat /> } />
+        <Route path='enem-mat-2019' element= { <EnemMat2019 />} />
+        <Route path='enem-mat-2020' element= { <EnemMat2020 />} />
         <Route path='enem-mat-2021' element= { <EnemMat2021 /> } />
         <Route path='enem-fis' element= { <EnemFis />} />
+        <Route path='enem-fis-2019' element= {<EnemFis2019 />} />
+        <Route path='enem-fis-2020' element= { <EnemFis2020 /> } />
         <Route path='enem-fis-2021' element= { <EnemFis2021 /> } />
     </Routes>
     </BrowserRouter>  

@@ -68,3 +68,11 @@ header ul {
         width: fit-content;
     }
 }
+@media screen and (max-width: 475px) {
+    .nav-header ul {
+        display: none;
+    }
+    .nav-header {
+        width: 35px;
+    }
+}

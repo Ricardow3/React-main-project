@@ -9,3 +9,37 @@
     margin: 5px auto;
     box-sizing: border-box;
 }
+#div-resp {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16pt;
+    width: 200px;
+    margin: 5px auto;
+}
+#resp-mat-q146 {
+    background: rgb(255, 176, 123);
+    text-align: center;
+    font-size: 14pt;
+    padding: 5px 10px;
+    width: 80px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#div-resp-q152 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16pt;
+    width: 340px;
+    margin: 10px auto;
+}
+#resp-mat-q152 {
+    background: rgb(255, 176, 123);
+    text-align: center;
+    font-size: 20pt;
+    padding: 5px 10px;
+    width: 90px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
