@@ -43,3 +43,34 @@
     border-radius: 5px;
     box-sizing: border-box;
 }
+.scroll-page {
+    font-weight: bold;
+    color: rgb(40, 110, 214);
+}
+
+#resp-mat-q170 {
+    background: rgb(255, 176, 123);
+    text-align: center;
+    font-size: 14pt;
+    padding: 5px 10px;
+    width: 130px;
+    border-radius: 5px;
+    margin: auto;
+    box-sizing: border-box;
+}
+#div-resp-q159 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16pt;
+    width: 210px;
+    margin: 10px auto;
+}
+#resp-mat-eq159 {
+    background: rgb(255, 176, 123);
+    text-align: center;
+    padding: 5px 10px;
+    width: 60px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
