@@ -22,7 +22,8 @@ const Q4_fuvest2021 = () => {
     const eq5 = useElementDiv("\\frac{l}{2}\\frac{h}{3} \\cdot 6 \\over 2", "true");
     const eq6 = useElementDiv("\\frac{hl}{2}", "true");
     const eq7 = useElementDiv("T = \\frac{hl}{2}");
-    const resp = useElementDiv("T = \\frac{1}{2} Q");
+    const eq8 = useElementDiv("\\frac{1}{4} Q");
+    const resp = useElementDiv("T + \\frac{1}{2}Q");
     return (
         <div>
             <section className="body-texto">
@@ -57,12 +58,9 @@ const Q4_fuvest2021 = () => {
                 <div style={{fontSize: 20}} ref={eq5}></div>
                 <div style={{fontSize: 20}} ref={eq6}></div>
                 <p>
-                    Como a área do triângulo maior é <div style={{display: "inline", fontSize: 20}} ref={eq7}></div>, então <span style={{fontSize: 18}} ref={var10}></span>.
+                    Como a área do triângulo maior é <span style={{fontSize: 20}} ref={eq7}></span>, então <span style={{fontSize: 18}} ref={var10}></span>. A área de cada quadrado azul é <span style={{fontSize: 20}} ref={eq8}></span>. Somando todas essas áreas temos a área do pentágono:
                 </p>
-                <div>
-                    <p style={{display: 'inline'}} id="frase-final">A área do pentágono fica</p> &nbsp;
-                    <div id="resposta-inline" ref={resp}></div>
-                </div>
+                <div id="resposta-q4" ref={resp}></div>
             </section>
         </div>
 
