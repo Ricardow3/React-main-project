@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from "react";
+import React from "react";
 import "./style.css";
 import useElementDiv from "../equations";
 import useConstLatex from "../constLatex";
@@ -24,7 +24,7 @@ const Q19_unicamp2022 = () => {
     const eq9 = useElementDiv("\\overline{AT} + \\overline{DT} = \\overline{AQ} + \\overline{SD} = 3", "true");
     const eq10 = useElementDiv("6 + 4(\\overline{QB} + \\overline{RC}) = 3(3 + \\overline{QB} + \\overline{CS})", "true");
     const eq11 = useElementDiv("6 + \\overline{QB} + \\overline{RC} = 9", "true");
-    const eq12 = useElementDiv("\\overline{BR} + \\overline{RC} = 3", "true");
+    const eq12 = useElementDiv("\\overline{BR} + \\overline{RC} = 3 \\quad \\therefore \\quad \\overline{BC} = 3", "true");
     const resp = useElementDiv("\\overline{AB}, \\overline{BC}, \\overline{CD} = \\{2, 3, 4\\}");
 
     return (

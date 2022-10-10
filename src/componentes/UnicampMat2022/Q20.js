@@ -49,7 +49,7 @@ const Q20_unicamp2022 = () => {
                 Esse sistema possui três variáveis <span ref={eq5}></span> e somente duas <div id="span">equações linearmente independentes <span>equações que não podem ser escritas como uma combinação linear uma da outra</span> </div>, portanto possui infinitas soluções. Analisando as alternativas:
             </p>
             <p>
-                Para&nbsp; <span ref={eq6}></span> &nbsp;as equações ficam
+                Para&nbsp; <span ref={eq6}></span> &nbsp;as equações ficam:
                 <div style={{fontSize: 20}} ref={eq7}></div> 
                 Essas equações são linearmente independentes. Isolando <span style={{fontSize: 20}} ref={var3}></span> na segunda equação e substituindo na primeira, é possível encontrar a única solução: <span ref={eq8}></span>
             </p>
