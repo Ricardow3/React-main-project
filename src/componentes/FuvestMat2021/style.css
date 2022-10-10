@@ -94,3 +94,18 @@
     width: 150px;
     margin: 5px auto;
 }
+#eq-resp {
+    display: flex;
+    font-size: 14pt;
+    width: 320px;
+    justify-content: space-around;   
+    align-items: center;
+    margin: auto;
+}
+#resposta-q9 {
+    display: block;
+    font-size: 16pt;
+    background: rgb(255, 176, 123);
+    padding: 5px 10px;
+    border-radius: 5px;
+}

@@ -11,6 +11,12 @@
 .img-eq4:nth-child(2) {
     margin-bottom: 20px;
 }
+.blue-strong {
+    font-weight: bold;
+    font-size: large;
+    color: rgb(175, 11, 52);
+}
+
 #resposta-q24 {
     display: block;
     background: rgb(255, 176, 123);
@@ -30,7 +36,7 @@
     width: 380px;
     margin: 10px auto;
 }
-#resp-eq16 {
+#resp-q16 {
     background: rgb(255, 176, 123);
     text-align: center;
     padding: 5px 5px;
@@ -54,5 +60,22 @@
     width: 280px;
     border-radius: 5px;
     margin: 5px auto;
+    box-sizing: border-box;
+}
+#div-resp-q21 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14pt;
+    width: 380px;
+    margin: 10px auto;
+}
+#resp-q21 {
+    background: rgb(255, 176, 123);
+    font-size: 22pt;
+    text-align: center;
+    padding: 5px 10px;
+    width: 60px;
+    border-radius: 5px;
     box-sizing: border-box;
 }

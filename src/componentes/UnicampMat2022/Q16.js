@@ -42,7 +42,7 @@ const Q16_unicamp2022 = () => {
                 </p>
                 <div id="div-resp-q16">
                     <div ref={eq7}></div>
-                    <div id="resp-eq16" ref={resp}></div>
+                    <div id="resp-q16" ref={resp}></div>
                 </div>
             </section>
         </div>

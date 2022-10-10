@@ -30,11 +30,11 @@ const Q9_fuvest2021 = () => {
                 <div style={{fontSize: 20}} ref={eq3}></div>
                 <p>Calcula-se então o comprimento do segmento <math><mi>FD</mi></math> a partir da hipotenusa do triângulo <math><mi>FDC</mi></math>: </p>
                 <img className="img-questao" src="./img/fuvest2021-img/Q9-img/triangle_2.svg" title="Triângulo retângulo maior"></img>
-                <div>
-                O comprimento do segmento fica &nbsp; <span style={{fontSize: 18}} ref={eq4}></span> &nbsp; <div id="resposta-inline" ref={resp}></div>
-                </div>
-                 
-                
+                <p>O comprimento do segmento fica:</p>
+                <div id="eq-resp">
+                    <div ref={eq4}></div> 
+                    <div id="resposta-q9" ref={resp}></div>
+                </div>  
             </section>
         </div>
     )
