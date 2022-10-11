@@ -49,9 +49,7 @@ const Q24_unicamp2022 = () => {
             </div>
             <p>Resolvendo o termo&nbsp; <span style={{fontSize: 20}} ref={eq6}></span> &nbsp;pela relação dada na questão: </p>
             <img className="img-questao" id="eq7-q24" src="./img/unicamp2022-img/Q24-img/eq-7.svg"></img>
-            <img className="img-questao" id="eq8-q24" src="./img/unicamp2022-img/Q24-img/eq-8.svg"></img>
             <p>Finalmente, substituindo os termos resultante na primeira expressão &#40;largura do canal&#41;:
-                {/* \( 200 \sqrt{2 - \sqrt{2}} + 15 \sqrt{2 + \sqrt{2}} \) */}
             </p>
             <div id="resposta-q24" ref={resp}></div>
             </section>
