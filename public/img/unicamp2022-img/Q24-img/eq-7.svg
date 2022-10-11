@@ -5,23 +5,9 @@
    viewBox="0 0 380.305 160.787"
    version="1.1"
    id="svg754"
-   sodipodi:docname="test(2).svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview756"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="pt"
-     showgrid="false" />
   <defs
      id="defs563">
     <g
@@ -310,7 +296,8 @@
          xlink:href="#glyph1-1"
          x="12.677"
          y="28.297001"
-         id="use587" />
+         id="use587"
+         transform="translate(5.9887782,0.37998479)" />
     </g>
     <g
        style="fill:#000000;fill-opacity:1"
@@ -588,6 +575,41 @@
      id="use683-9"
      style="fill:#000000;fill-opacity:1"
      transform="matrix(1.9639286,0,0,1.9639286,-273.32786,79.26936)" />
+  <use
+     xlink:href="#glyph0-6"
+     x="27.693001"
+     y="14.723"
+     id="use581-3"
+     style="fill:#000000;fill-opacity:1"
+     transform="matrix(1.9639286,0,0,1.9639286,6.5805826,39.24466)" />
+  <use
+     xlink:href="#glyph0-1"
+     x="0.19499999"
+     y="14.723"
+     id="use565-3"
+     style="fill:#000000;fill-opacity:1"
+     transform="matrix(1.9639286,0,0,1.9639286,17.400446,39.357222)" />
+  <use
+     xlink:href="#glyph0-2"
+     x="4.124249"
+     y="14.723"
+     id="use567-6"
+     style="fill:#000000;fill-opacity:1"
+     transform="matrix(1.9639286,0,0,1.9639286,17.400446,39.357222)" />
+  <use
+     xlink:href="#glyph0-3"
+     x="6.89186"
+     y="14.723"
+     id="use569-7"
+     style="fill:#000000;fill-opacity:1"
+     transform="matrix(1.9639286,0,0,1.9639286,17.400446,39.357222)" />
+  <use
+     xlink:href="#glyph0-4"
+     x="12.42708"
+     y="14.723"
+     id="use571-5"
+     style="fill:#000000;fill-opacity:1"
+     transform="matrix(1.9639286,0,0,1.9639286,17.400446,39.357222)" />
   <use
      xlink:href="#glyph0-5"
      x="186.98752"
