@@ -60,7 +60,7 @@ const Q152_EnemMat2021 = () => {
                 <div style={{fontSize: 20}} ref={eq11}></div>
                 <div style={{fontSize: 18}} ref={eq12}></div>
                 <p>
-                    Como dito na questão, o valor recebido pelo navio é igual a soma das duas maiores raízes:
+                    Como dito na questão, o valor recebido pelo navio é igual à soma das duas maiores raízes:
                 </p>
                 <div id="div-resp-q152">
                     <div ref={eq13}></div>

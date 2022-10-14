@@ -5,8 +5,8 @@ import useElementDiv from "../equations";
 const Q13_fuvest2021 = () => {
     const eq1 = useElementDiv("\\frac{1}{4}");
     const eq2 = useElementDiv("\\frac{1}{8}");
-    const eq3 = useElementDiv("x \\quad \\rightarrow \\quad a_p", "true");
-    const eq4 = useElementDiv("1 \\quad \\rightarrow \\quad 360°", "true");
+    const eq3 = useElementDiv("x \\quad \\longrightarrow \\quad a_p", "true");
+    const eq4 = useElementDiv("1 \\quad \\longrightarrow \\quad 360°", "true");
     const eq5 = useElementDiv("x = \\frac{a_p}{360}", "true");
     const eq6 = useElementDiv("a_p");
     const eq7 = useElementDiv(" 40.000 \\cdot \\left( \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{4} \\right) =", "true");
@@ -45,9 +45,9 @@ const Q13_fuvest2021 = () => {
                 <p>
                     O terceiro trajeto é equivalente ao primeiro. Somando os três, o comprimento total percorrido é:
                 </p>
-                <div id="resp-q13">
+                <div id="eq-q13">
                     <div ref={eq7}></div>
-                    <div id="resposta" ref={resp}></div>
+                    <div id="resp-q13" ref={resp}></div>
                 </div>
             </section>
         </div>
