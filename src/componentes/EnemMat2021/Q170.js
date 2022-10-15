@@ -38,7 +38,7 @@ const Q170_EnemMat2021 = () => {
         <div>
             <section className="body-texto">
                 <h1>Enem 2021 - Prova de Matemática</h1>
-                <h2>Questão 159</h2>
+                <h2>Questão 170</h2>
                 <img src="./img/enem2021-img/Q170-img/enem-mat-2021-q170.jpeg" className="img-questao img-main" title="Questão 170 - Prova de Matemática; ENEM 2021"></img>
                 <p>
                     Vamos inicialmente adquirir um senso intuitivo da fórmula que calcula o volume do cone, ou de um segmento do cone &#40;tronco de cone&#41;, já que o volume da caneca é representada por essa forma geométrica. A dedução da fórmula de volume do cone exige um conceito matemático mais avançado, entretanto, podemos chegar em uma fórmula que se aproxima muito do resultado exato. Caso queira ignorar qualquer demostração, basta utilizar a fórmula do volume do cone e <a className="scroll-page" href="#solucao">pular para a solução</a>.

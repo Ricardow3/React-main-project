@@ -12,7 +12,7 @@ const Q19_unicamp2022 = () => {
     const var6 = useElementDiv("\\overline{AT} + \\overline{DT} = 3");
     const var7 = useElementDiv("\\overline{AT} = 1");
     const var8 = useElementDiv("\\overline{AT} = 2");
-    const var9 = useElementDiv("\\overline{AB} = 2");
+    const var9 = useElementDiv("\\overline{AQ} = 1 \\therefore \\overline{AB} = 2");
     const eq1 = useElementDiv("\\begin{cases} \\textrm{P.A:}\\; \\left(\\overline{AQ} + \\overline{QB},\\; \\overline{BR} + \\overline{RC},\\; \\overline{CS} + \\overline{SD}\\right) \\newline \\overline{AT} + \\overline{DT} = 3 \\end{cases}", "true");
     useConstLatex("\\overline{AQ} = \\overline{AT}", "eq-tangent-2", 2);
     const eq3 = useElementDiv("\\overline{AO}^2 - r^2 = \\overline{AQ}^2 \\newline \\overline{AO}^2 - r^2 = \\overline{AT}^2", "true");
@@ -77,6 +77,9 @@ const Q19_unicamp2022 = () => {
                     Utilizando a segunda condição dada na questão:
                 </p>
                 <div style={{fontSize: 18}} ref={eq9}></div>
+                <p>
+                    Substituimos essa expressão na equação acima &#40;soma dos segmentos&#41;:
+                </p>
                 <div style={{fontSize: 18}} ref={eq10}></div>
                 <div style={{fontSize: 18}} ref={eq11}></div>
                 <div style={{fontSize: 20}} ref={eq12}></div>

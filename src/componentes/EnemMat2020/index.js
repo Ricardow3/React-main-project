@@ -9,7 +9,7 @@ const EnemMat2020 = () => {
         q144: Q144_EnemMat2020
     }
 
-    const [newPage, setNewPage] = useState("q142");
+    const [newPage, setNewPage] = useState("q144");
 
     const newpageFunction = (pagina) => {
         setNewPage(pagina);
@@ -23,10 +23,10 @@ const EnemMat2020 = () => {
             navbarPage = {newpageFunction} />
             <Aside
             Page = {newpageFunction}
-            name = 'Questão 142' number = {144}
+            name = 'Questão 144' number = {144}
             listQ = {[144]} />
 
-            {newPage === "q142" && <Pages.q144 />}
+            {newPage === "q144" && <Pages.q144 />}
 
         </div>
     )

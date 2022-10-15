@@ -5,7 +5,9 @@ import useConstLatex from "../constLatex";
 
 
 const Q24_unicamp2022 = () => { 
-    useConstLatex("\\alpha", "div-alpha", 3);
+    useConstLatex("\\alpha", "div-alpha", 4);
+    const var1 = useElementDiv("A");
+    const var2 = useElementDiv("B");
     const eq1 = useElementDiv("400 \\cos (\\alpha) + 30 \\sin (\\alpha)", "true");
     const eq2 = useElementDiv("\\cos (2 \\alpha ) = 2 \\cos^2 ( \\alpha ) - 1");
     const eq3 = useElementDiv("\\cos (135)");
@@ -20,21 +22,24 @@ const Q24_unicamp2022 = () => {
             <h1>Unicamp 2022 - Prova de Matemática</h1>
             <h2>Questão 24</h2>
             <img className="img-questao img-main" src="./img/unicamp2022-img/Q24-img/unicamp-mat-2021-Q24.jpeg" title="Questão 24 - Prova de matemática; Unicamp 2021"></img>
-            <p>A largura do canal é obtida pela soma de algumas projeções das medidas dadas na figura. O ângulo formado entre o eixo longitudinal do navio e a reta perpendicular a direção do canal &#40;direção horizontal na imagem&#41; equivale à <span className="div-alpha"></span>.
+            <p>
+                A largura do canal é obtida pela soma de algumas projeções das medidas dadas na figura. O ângulo formado entre o eixo longitudinal do navio e a reta perpendicular a direção do canal &#40;direção horizontal na imagem&#41; equivale à <span style={{fontSize: 20}} className="div-alpha"></span>.
             </p>
             <img className="img-questao" src="./img/unicamp2022-img/Q24-img/alpha-1.svg" title="Ângulo projetado entre o eixo longitudinal do navio e a horizontal"></img>
-            <p>A largura equivale a soma das projeções dadas por <math><mi>A</mi></math> e <math><mi>B</mi></math> na figura abaixo.</p>
+            <p>
+                A largura equivale a soma das projeções dadas por <span ref={var1}></span> e <span ref={var2}></span> na figura abaixo.
+            </p>
             <img className="img-questao" id="projecoes-q24" src="./img/unicamp2022-img/Q24-img/projecoes.svg" title="Projeções das medidas do navio em relação à horizontal"></img>
             <div style={{fontSize: 20}} ref={eq1}></div>
             <p>
-                Como o ângulo <span className="div-alpha"></span> não é um dos ângulos notáveis &#40;30°, 45° ou 60°&#41; a estimativa dos seus respectivos senos e cossenos pode ser difícil por aproximação. Para estimar o seno e o cosseno do ângulo <span className="div-alpha"></span> usa-se as relações dadas na questão. A dedução é mostrada abaixo:
+                Como o ângulo <span style={{fontSize: 20}} className="div-alpha"></span> não é um dos ângulos notáveis &#40;30°, 45° ou 60°&#41; a estimativa dos seus respectivos senos e cossenos pode ser difícil por aproximação. Para estimar o seno e o cosseno do ângulo <span style={{fontSize: 20}} className="div-alpha"></span> usa-se as relações dadas na questão. A dedução é mostrada abaixo:
             </p>
             <div>
                 <img className="img-questao img-eq2" src="./img/unicamp2022-img/Q24-img/eq-2.svg"></img>
                 <img className="img-questao img-eq2" src="./img/unicamp2022-img/Q24-img/eq-3.svg"></img>
             </div>
             <p>
-                A relação&nbsp; <span ref={eq2}></span> &nbsp;é aplicada no denominador. Substituindo <span className="div-alpha"></span> pelo ângulo dado na questão, chega-se ao valor de&nbsp; <span style={{fontSize: 15}} ref={eq3}></span> &nbsp;que é um ângulo múltiplo de 45°:
+                A relação&nbsp; <span ref={eq2}></span> &nbsp;é aplicada no denominador. Substituindo <span style={{fontSize: 20}} className="div-alpha"></span> pelo ângulo dado na questão, chega-se ao valor de&nbsp; <span style={{fontSize: 15}} ref={eq3}></span> &nbsp;que é um ângulo múltiplo de 45°:
             </p>
             <div ref={eq4}></div>
             <p>Aplicando esse valor à equação acima:</p>

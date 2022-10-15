@@ -1,0 +1,17 @@
+#div-resp-q144 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18pt;
+    width: 400px;
+    margin: 10px auto;
+}
+#resp-q144 {
+    background: rgb(255, 176, 123);
+    text-align: center;
+    font-size: 16pt;
+    padding: 5px 10px;
+    width: 130px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
