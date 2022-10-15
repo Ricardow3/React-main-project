@@ -30,7 +30,7 @@ const Q15_fuvest2020 = () => {
             <p>O raio externo é a soma do raio interno &#40;3 cm&#41; e da espessura do rolo &#40;número de voltas &#215; espessura da fita&#41;. A espessura do rolo fica:</p>
             <div style={{fontSize: 20}} ref={eq2}></div>
             <p>
-                O comprimento total da fita é calculado através da espessura do rolo, já que a fita quando desenrolada deve manter a sua área lateral constante. A área lateral da fita desenrolada é igual ao comprimento da fita vezes a sua espessura, seja o comprimento igual a <span style={{fontSize: 20}} ref={var4}></span>, então:
+                O comprimento total da fita é calculado através da espessura do rolo, já que a fita quando desenrolada deve manter a sua área lateral constante. A área lateral da fita desenrolada é igual ao comprimento da fita vezes a sua espessura. Seja o comprimento igual a <span style={{fontSize: 20}} ref={var4}></span>, então:
             </p>
             <div style={{fontSize: 20}} ref={eq3}></div>
             <div id="resposta-q15" ref={resp}></div>

@@ -15,7 +15,7 @@ const EnemMat = () => {
                 <Link className="enem-mat" to='/enem-mat-2020'><li>2020</li></Link>
                 <Link className="enem-mat" to='/enem-mat-2019'><li>2019</li></Link>
             </ul>
-            <p className="parag-prova">As questões de referem a prova de ciências da natureza e matemática - caderno AZUL</p>
+            <p className="parag-prova">As questões se referem a prova de ciências da natureza e matemática - caderno AZUL</p>
         </div>
     )
 }

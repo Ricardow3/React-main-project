@@ -52,7 +52,7 @@ const Q145_EnemMat2021 = () => {
                 </p>
                 <div style={{fontSize: 20}} ref={eq7}></div>
                 <p>
-                    Portanto, o percentual de entrevistado por faixa etária é:
+                    Portanto, o percentual de entrevistados por faixa etária é:
                 </p>
                 <div className="resp-enem-q145" ref={resp1}></div>
                 <div className="resp-enem-q145" ref={resp2}></div>

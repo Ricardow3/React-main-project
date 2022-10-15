@@ -26,7 +26,7 @@ const Q45_fuvestFis2021 = () => {
                     <span className="span-false"> &#8592; FALSO</span>
                 </p>
                 <p>
-                    Pela segunda lei de Newton, a força resultante &#40;somatório das forças&#41; é igual a massa vezes a aceleração do corpo. Se o corpo possui velocidade constante, ele está em movimento retilíneo uniforme ou está em repouso, em ambos os casos o módulo &#40;magnitude&#41; da força resultante é nulo.
+                    Pela segunda lei de Newton, a força resultante &#40;somatório das forças&#41; é igual à massa vezes a aceleração do corpo. Se o corpo possui velocidade constante, ele está em movimento retilíneo uniforme ou está em repouso, em ambos os casos o módulo &#40;magnitude&#41; da força resultante é nulo.
                 </p>
                 <p className="quote-q45">
                     "III. As forças peso e normal atuando sobre um livro em repouso em cima de uma mesa horizontal formam um par ação-reação."

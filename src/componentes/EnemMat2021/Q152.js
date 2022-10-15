@@ -55,12 +55,12 @@ const Q152_EnemMat2021 = () => {
                     Nas equações acima, <span style={{fontSize: 20}} ref={var4}></span> denotam as raízes das equações. O produto de dois polinômios de 2° grau formam um polinômio de 4° grau, portanto a equação tem 4 raízes.
                 </p>
                 <p>
-                    Podemos escrever, de forma alternativa, um polinômio de mais alto grau em função das suas raízes, separando cada termo em polinômios de 1° grau. Esse processo é chamado de fatorização:
+                    Podemos escrever, de forma alternativa, um polinômio de mais alto grau em função das suas raízes, separando cada termo em polinômios de 1° grau. Esse processo é chamado de fatoração:
                 </p>
                 <div style={{fontSize: 20}} ref={eq11}></div>
                 <div style={{fontSize: 18}} ref={eq12}></div>
                 <p>
-                    Como dito na questão, o valor recebido pelo navio é igual a soma das duas maiores raízes:
+                    Como dito na questão, o valor recebido pelo navio é igual à soma das duas maiores raízes:
                 </p>
                 <div id="div-resp-q152">
                     <div ref={eq13}></div>

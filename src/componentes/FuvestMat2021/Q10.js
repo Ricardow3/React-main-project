@@ -1,8 +1,13 @@
 import React from "react";
 import "./style.css";
 import useElementDiv from "../equations";
+import useConstLatex from "../constLatex";
 
 const Q10_fuvest2021 = () => {
+    useConstLatex("a", "a-const", 2);
+    useConstLatex("b", "b-const", 2);
+    const var1 = useElementDiv("x");
+    const var2 = useElementDiv("y");
     const eq1 = useElementDiv("x^2 + y^2 = R^2", "true");
     const eq2 = useElementDiv("x^2 + y^2 = 1", "true");
     const eq3 = useElementDiv("x^2 + y^2 \\leq 1", "true");
@@ -38,18 +43,18 @@ const Q10_fuvest2021 = () => {
                 <div style={{fontSize: 20}} ref={eq4}></div> 
                 Essa equação também pode ser escrita como 
                 <div style={{fontSize: 20}} ref={eq5}></div>
-                Nesse caso os coeficientes <math><mi>a</mi></math> e <math><mi>b</mi></math> são diferentes daqueles encontrados pela equação mais convencional &nbsp;
-                <div style={{display: 'inline'}} ref={eq6}></div>.
+                Nesse caso os coeficientes <span style={{fontSize: 20}} className="a-const"></span> e <span style={{fontSize: 20}} className="b-const"></span> são diferentes daqueles encontrados pela equação mais convencional &nbsp;
+                <span style={{fontSize: 20}} ref={eq6}></span>.
                 </p>
                 <p id="parag">
-                É necessário conhecer <div id="span">duas variáveis <span>Podem ser dois pontos que pertencem a reta ou um ponto e o ângulo de inclinação</span> </div> para resolver qualquer uma das equações acima, já que elas possuem as duas variáveis <math><mi>a</mi></math> e <math><mi>b</mi></math>.
+                É necessário conhecer <div id="span">duas variáveis <span>Podem ser dois pontos que pertencem a reta ou um ponto e o ângulo de inclinação</span> </div> para resolver qualquer uma das equações acima, já que elas possuem as duas variáveis <span style={{fontSize: 20}} className="a-const"></span> e <span style={{fontSize: 20}} className="b-const"></span>.
                 </p>
                 <p>
-                Os dois pontos que pertencem a reta e podem ser identificados pela figura são as intersecções da reta com os eixo <math><mi>x</mi></math> e <math><mi>y</mi></math>, ou seja, <math><mo>&#40;</mo><mn><mo>-</mo>1</mn><mo>,</mo><mn>0</mn><mo>&#41;</mo></math> e <math><mo>&#40;</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>&#41;</mo></math>.
+                Os dois pontos que pertencem a reta e podem ser identificados pela figura são as intersecções da reta com os eixo <span style={{fontSize: 20}} ref={var1}></span> e <span style={{fontSize: 20}} ref={var2}></span>, ou seja, <math><mo>&#40;</mo><mn><mo>-</mo>1</mn><mo>,</mo><mn>0</mn><mo>&#41;</mo></math> e <math><mo>&#40;</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>&#41;</mo></math>.
                 </p>
                 <p>
                 Aplicando os valores dos pontos na equação geral &nbsp;
-                <div style={{display: 'inline'}} ref={eq7}></div>:
+                <span style={{fontSize: 20}} ref={eq7}></span>:
                 <div style={{fontSize: 20}} ref={eq8}></div>
                 <div style={{fontSize: 20}} ref={eq9}></div>
                 </p>

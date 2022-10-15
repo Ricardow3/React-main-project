@@ -1,16 +1,33 @@
 import React, { useState } from "react";
 import Header from "../Header";
 import Aside from "../Aside";
+import Q144_EnemMat2020 from "./Q144";
 
 const EnemMat2020 = () => {
 
+    const Pages = {
+        q144: Q144_EnemMat2020
+    }
+
+    const [newPage, setNewPage] = useState("q144");
+
+    const newpageFunction = (pagina) => {
+        setNewPage(pagina);
+    }
+
     return (
         <div>
-            <Header link = '/enem-mat' vestibular = 'ENEM: outras provas' outros = 'Outros vestibulares' />
-            <div className="soon">
-                <h1>Em breve</h1>
-                <img src='./img/gear_icon.svg' alt='gear'></img>
-            </div>
+            <Header link = '/enem-mat' vestibular = 'ENEM: outras provas' outros = 'Outros vestibulares'
+            navbarRender = {true} number = {144}
+            navbarList = {[144]}
+            navbarPage = {newpageFunction} />
+            <Aside
+            Page = {newpageFunction}
+            name = 'Questão 144' number = {144}
+            listQ = {[144]} />
+
+            {newPage === "q144" && <Pages.q144 />}
+
         </div>
     )
 }

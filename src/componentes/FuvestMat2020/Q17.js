@@ -13,7 +13,7 @@ const Q17_fuvest2020 = () => {
             <h2>Questão 17</h2>
             <img className="img-questao img-main" src="./img/fuvest2020-img/q17-img/fuvest-mat-2020-q17.jpeg" title="Questão 17 -Prova de Matemática; Fuvest 2020"></img>
             <p>
-                Esse problema exige uma boa noção espacial, pois é necessário imaginar como um paralelepípedo se encaixa dentro de uma esfera, sendo delimitado pela mesma. O paralelepípedo possui todas as faces retangulares, ou seja, todas as arestas adjacentes formam ângulos de 90° entre si.
+                Nesse problema é necessário imaginar como um paralelepípedo se encaixa dentro de uma esfera, sendo delimitado pela mesma. O paralelepípedo possui todas as faces retangulares, ou seja, todas as arestas adjacentes formam ângulos de 90° entre si.
             </p>
             <p>
                 Para visualizar melhor como um paralelepípedo é inscrito em uma esfera, a imagem abaixo ilustra duas faces de cores distintas do paralelepípedo, e como ele seria visto dentro da esfera por duas vistas diferentes.
