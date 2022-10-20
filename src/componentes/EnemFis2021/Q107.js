@@ -20,7 +20,9 @@ const Q107_EnemFis2021 = () => {
             <section className="body-texto">
                 <h1>ENEM 2021 - Prova de Física</h1>
                 <h2>Questão 107</h2>
-                <img src="./img/enemfis2021-img/Q107-img/enem-fis-2021-q107.jpeg" className="img-questao img-main" title="Questão 107 - Prova de Física; ENEM 2021"></img>
+                <div className="div-img-large">
+                    <img src="./img/enemfis2021-img/Q107-img/enem-fis-2021-q107.jpeg" className="img-questao img-main-large" title="Questão 107 - Prova de Física; ENEM 2021"></img>
+                </div>
                 <p>
                     A questão apresenta dados de aceleração e velocidade máxima do mesmo veículo &#40;mesma massa&#41; funcionando com álcool e com gasolina.
                 </p>

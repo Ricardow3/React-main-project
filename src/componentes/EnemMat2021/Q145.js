@@ -30,7 +30,7 @@ const Q145_EnemMat2021 = () => {
                 <p>
                     Calculamos a média ponderada multiplicando as médias de tempo em cada faixa de idade pelo número de pessoas naquela faixa, somando todos os termos e dividindo pelo número total de pessoas da amostra:
                 </p>
-                <div style={{fontSize: 20}} ref={eq1}></div>
+                <div style={{fontSize: 20}} className="div-eq-1" ref={eq1}></div>
                 <p>
                     Na equação acima, <span style={{fontSize: 20}} ref={var1}></span> é o número de pessoas analisadas em cada subconjunto. <span style={{fontSize: 18}} ref={var2}></span>.
                 </p>
@@ -46,7 +46,7 @@ const Q145_EnemMat2021 = () => {
                 <p>
                     Isolando <span style={{fontSize: 20}} ref={var5}></span> na segunda equação e substituindo na primeira:
                 </p>
-                <div style={{fontSize: 20}} ref={eq6}></div>
+                <div style={{fontSize: 20}} className="div-eq-1" ref={eq6}></div>
                 <p>
                     Substituindo esse valor em qualquer equação, encontramos que:
                 </p>

@@ -28,7 +28,7 @@ const Q115_EnemFis2021 = () => {
                 <h2>Questão 115</h2>
                 <img src="./img/enemfis2021-img/Q115-img/enem-fis-2021-q115.jpeg" className="img-questao img-main" title="Questão 115 - Prova de Física; ENEM 2021"></img>
                 <p>
-                    A equação apresentada na questão relaciona a taxa de transferência de calor por condução com a diferença de temperatura entre dois pontos em um meio estacionário, como um sólido. Nesse caso, a condução de calor é unidimensional em <span id="span">regime estacionário <span>Condição na qual as propriedades do sistema &#40;nesse caso, temperatura&#41; podem variar no espaço, mas não variam no tempo</span></span>. Ou seja, o fluxo de calor é descrito por uma única coordenada e a temperatura em um determinado ponto da panela não varia no tempo.
+                    A equação apresentada na questão relaciona a taxa de transferência de calor por condução com a diferença de temperatura entre dois pontos em um meio estacionário, como um sólido. Nesse caso, a condução de calor é unidimensional em <span id="span-mobile">regime estacionário <span>Condição na qual as propriedades do sistema &#40;nesse caso, temperatura&#41; podem variar no espaço, mas não variam no tempo</span></span>. Ou seja, o fluxo de calor é descrito por uma única coordenada e a temperatura em um determinado ponto da panela não varia no tempo.
                 </p>
                 <p>
                     A taxa de transferência de calor é representada por <span style={{fontSize: 20}} className="heat-flow"></span> na equação abaixo:
@@ -60,15 +60,15 @@ const Q115_EnemFis2021 = () => {
                 <p>
                     Rearranjando os termos para isolar a diferença de temperatura, chegamos a duas expressões &#40;para parede simples e composta&#41;:
                 </p>
-                <div style={{fontSize: 20}} ref={eq3}></div>
+                <div style={{fontSize: 20}} className="div-eq-1" ref={eq3}></div>
                 <p>Então:</p>
-                <div style={{fontSize: 20}} ref={eq4}></div>
+                <div style={{fontSize: 20}} className="div-eq-1" ref={eq4}></div>
                 <p>
                     A panela de aço e cobre tem espessura de <span style={{fontSize: 20}} ref={var3}></span> para cada material. Aplicando os valores de condutividade térmica, encontramos:
                 </p>
                 <div style={{fontSize: 18}} ref={eq5}></div>
                 <div style={{fontSize: 18}} ref={eq6}></div>
-                <div style={{fontSize: 18}} ref={eq7}></div>
+                <div style={{fontSize: 18}} className="div-eq-1" ref={eq7}></div>
                 <p>
                     A menor diferença de temperatura entre a superfície externa e interna, em regime estacionário, é da panela de alumínio. Comparando a panela de ferro com a de cobre-aço:
                 </p>

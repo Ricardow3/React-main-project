@@ -49,7 +49,7 @@ const Q19_unicamp2022 = () => {
                 <p>
                     Consideramos então as duas condições que definem os lados do quadrilátero:
                 </p>
-                <div style={{fontSize: 20}} ref={eq1}></div>
+                <div style={{fontSize: 20}} className="div-eq-1" ref={eq1}></div>
                 <p>
                     A primeira condição é a relação entre os lados que formam uma progressão aritmética.
                 </p>
@@ -64,15 +64,15 @@ const Q19_unicamp2022 = () => {
                     Portanto, <span style={{fontSize: 18}} className="eq-tangent-2"></span>. <br /> Utilizando as relações entre os segmentos e a expressão que calcula a soma de uma progessão aritmética, encontramos:
                 </p>
                 <div ref={eq4}></div>
-                <div ref={eq5}></div>
+                <div ref={eq5} className="div-eq-1"></div>
                 <p>
                     Como <span ref={eq6}></span>, então:
                 </p>
-                <div ref={eq7}></div>
+                <div ref={eq7} className="div-eq-1"></div>
                 <p>
                     Igualando a equação acima com a soma da progessão aritmética:
                 </p>
-                <div ref={eq8}></div>
+                <div ref={eq8} className="div-eq-1"></div>
                 <p>
                     Utilizando a segunda condição dada na questão:
                 </p>

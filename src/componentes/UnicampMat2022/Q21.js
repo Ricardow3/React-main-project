@@ -25,7 +25,9 @@ const Q21_unicamp2022 = () => {
                 <p>
                     A figura abaixo mostra o espaço amostral de probabilidade &#40;conjunto de combinações possíveis&#41;. Cada um dos resultados possíveis é chamado de evento de probabilidade.
                 </p>
-                <img src="./img/unicamp2022-img/Q21-img/rock-paper-scissors.svg" className="img-questao"></img>
+                <div className="div-img-large">
+                    <img src="./img/unicamp2022-img/Q21-img/rock-paper-scissors.svg" className="img-questao"></img>
+                </div>
                 <p>
                     Percebemos que existem 9 eventos possíveis. Na figura, <span ref={var1}></span> representam, respectivamente, os elementos pedra, papel e tesoura. Essa forma de arranjo dos elementos é um tipo de permutação, chamada de arranjo com repetição. A quantidade de arranjos possíveis é calculada pelo número de elementos <span style={{fontSize: 20}} ref={var2}></span> agrupados de <span style={{fontSize: 20}} className="k-const"></span> em <span style={{fontSize: 20}} className="k-const"></span>:
                 </p>

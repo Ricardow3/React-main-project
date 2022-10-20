@@ -74,3 +74,11 @@
     border-radius: 5px;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 475px) {
+    #div-resp-q152 {
+        width: 280px;
+        height: 150px;
+        flex-wrap: wrap;
+    }
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Header";
 import Aside from "../Aside";
+import "./style.css";
 
 const FuvestMat2022 = () => {
 

@@ -25,9 +25,9 @@ const Q9_fuvest2021 = () => {
                 Vamos demostrar a equação que relaciona a altura <span style={{fontSize: 20}} className="h-const"></span> do triângulo com o seu lado <span style={{fontSize: 20}} className="l-const"></span>.
                 </p>
                 <div id="triangle-q9">
-                <img className="img-questao img2-q9" src="./img/fuvest2021-img/Q9-img/triangle1_eq1.svg" title="Triângulo equilátero"></img>
-                <div style={{fontSize: 20}} ref={eq1}></div>
-                <div style={{fontSize: 20}} ref={eq2}></div>
+                    <img className="img-questao img2-q9" src="./img/fuvest2021-img/Q9-img/triangle1_eq1.svg" title="Triângulo equilátero"></img>
+                    <div style={{fontSize: 20}} className="div-eq-1" ref={eq1}></div>
+                    <div style={{fontSize: 20}} ref={eq2}></div>
                 </div>
                 <p>
                 A altura <span style={{fontSize: 20}} className="h-const"></span> é a projeção de <span style={{fontSize: 20}} className="l-const"></span> em relação à vertical, que pode ser calculada também pelo seno do ângulo formado pelos lados <span style={{fontSize: 20}} className="l-const"></span> e <span style={{fontSize: 20}} ref={var4}></span>.

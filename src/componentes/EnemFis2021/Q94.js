@@ -29,7 +29,7 @@ const Q94_EnemFis2021 = () => {
                 <p>
                     A questão define o ângulo de lançamento e o deslocamento vertical e horizontal até a posição final, no canhão <strong>A</strong>.
                 </p>
-                <img src="./img/enemfis2021-img/Q94-img/parabolic_curve.svg" className="img-questao"></img>
+                <img src="./img/enemfis2021-img/Q94-img/parabolic_curve.svg" className="img-questao img-fit"></img>
                 <p>
                     Como a trajetória da bala tangencia o ponto <strong>P</strong>, qualquer velocidade menor do que <span className="vel-inicial-q94"></span> com o mesmo ângulo de lançamento <span style={{fontSize: 20}} className="theta"></span> irá atingir a colina antes de alcançar o outro canhão.
                 </p>
@@ -52,18 +52,24 @@ const Q94_EnemFis2021 = () => {
                 <p>
                     Substituindo a equação do tempo em função de <span className="vel-inicial-q94"></span> na equação do MRUV, encontramos:
                 </p>
-                <img src="./img/enemfis2021-img/Q94-img/equation_1_q94.svg" className="img-questao img-q94-1"></img>
+                <div className="div-eq-1">
+                    <img src="./img/enemfis2021-img/Q94-img/equation_1_q94.svg" className="img-questao img-q94-1"></img>
+                </div>
                 <p>
                     Chegamos em uma equação que relaciona a velocidade inicial <span className="vel-inicial-q94"></span> com os deslocamentos <span className="s-x"></span> e <span className="s-y"></span>.
                 </p>
                 <p>
                     Para resolver a equação corretamente é necessário adotar um referencial. Consideramos os vetores positivos como sendo verticais para cima. Nesse caso a aceleração gravitacional é negativa. Substituindo os valores dados na questão:
                 </p>
-                <img src="./img/enemfis2021-img/Q94-img/equation-q94-2.svg" className="img-questao img-q94-2"></img>
+                <div className="div-eq-1">
+                    <img src="./img/enemfis2021-img/Q94-img/equation-q94-2.svg" className="img-questao img-q94-2"></img>
+                </div>
                 <p>
                     Isolando <span className="vel-inicial-q94"></span> encontramos:
                 </p>
-                <img src="./img/enemfis2021-img/Q94-img/equation-q94-3.svg" className="img-questao"></img>
+                <div className="div-eq-1">
+                    <img src="./img/enemfis2021-img/Q94-img/equation-q94-3.svg" className="img-questao"></img>
+                </div>
                 <div id="resp-fis-q94" ref={resp}></div>
             </section>
         </div>

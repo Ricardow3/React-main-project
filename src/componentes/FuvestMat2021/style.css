@@ -12,18 +12,21 @@
     display: block;
     margin: auto;
 }
+.div-eq-2 {
+    font-size: 20px;
+}
 .span {
     font-weight: bold;
 }
 #parag {
     display: inline;
 }
-#span {
+#span-mobile {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
 }
-#span span {
+#span-mobile span {
     visibility: hidden;
     width: 250px;
     background-color: rgba(255, 255, 255, 0.9);
@@ -39,7 +42,7 @@
     left: 50%;
     margin-left: -60px;
 }
-#span:hover span {
+#span-mobile:hover span {
     visibility: visible;
 }
 #resposta-q4 {
@@ -114,4 +117,28 @@
     background: rgb(255, 176, 123);
     padding: 5px 10px;
     border-radius: 5px;
+}
+
+@media screen and (max-width: 475px) {
+    .body-texto {
+        width: 90vw;
+    }
+    .div-eq-1 {
+        overflow: auto;
+    }
+    .div-eq-2 {
+        font-size: 18px;
+    }
+    .img-main, .img-fit {
+        width: 90vw;
+    }
+    #span-mobile span {
+        width: 220px;
+        left: 0%;
+        margin-left: -100px;
+    }
+    #eq-q13 {
+        width: 280px;
+        flex-wrap: wrap;
+    }
 }

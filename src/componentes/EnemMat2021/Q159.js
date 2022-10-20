@@ -38,7 +38,9 @@ const Q159_EnemMat2021 = () => {
                 <p>
                     Calculamos essa constante para o caso de 3 pessoas:
                 </p>
-                <div style={{fontSize: 20}} ref={eq3}></div>
+                <div className="div-eq-1">
+                    <div style={{fontSize: 20}} ref={eq3}></div>
+                </div>
                 <p>
                     Como o número de pessoas é uma variável adimensional, a constante é medida em <span style={{fontSize: 20}} ref={var3}></span> &#40;segundos&#41;.
                 </p>

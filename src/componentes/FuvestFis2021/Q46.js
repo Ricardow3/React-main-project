@@ -20,9 +20,9 @@ const Q46_fuvestFis2021 = () => {
                 <h2>Questão 46</h2>
                 <img className="img-questao img-main" src="./img/fuvestfis2021-img/Q46-img/fuvest-fis-2021-q46.jpeg" title="Questão 46 - Prova de Física; FUVEST 2021" ></img>
                 <p>
-                    Nesse experimento, nada intuitivo, a estrutura inteira permanece estática graças a força de atrito entre o palito 1 &#40;da figura&#41; e a mesa de apoio. Como a <div id="span-q46">garrafa não pode sustentar o próprio peso <span>Um corpo não pode exercer força sobre ele mesmo</span></div> somente pelo apoio dos palitos, quem justamente segura toda a estrutura é a mesa.
+                    Nesse experimento, nada intuitivo, a estrutura inteira permanece estática graças a força de atrito entre o palito 1 &#40;da figura&#41; e a mesa de apoio. Como a <div id="span">garrafa não pode sustentar o próprio peso <span>Um corpo não pode exercer força sobre ele mesmo</span></div> somente pelo apoio dos palitos, quem justamente segura toda a estrutura é a mesa.
                 </p>
-                <img className="img-questao" src="./img/fuvestfis2021-img/Q46-img/estrutura-q46.svg"></img>
+                <img className="img-questao img-fit" src="./img/fuvestfis2021-img/Q46-img/estrutura-q46.svg"></img>
                 <p>
                     Na figura acima, as variáveis tem a mesma definição dada na questão. Além dessas, a força de atrito <span style={{fontSize: 18}} ref={var1}></span> &#8210; que a mesa exerce sobre o palito &#8210; é mostrada.
                 </p>
@@ -32,7 +32,7 @@ const Q46_fuvestFis2021 = () => {
                 <p>
                     Para resolver a questão, não é necessário considerar todas as componentes das forças, somente aquelas que geram um torque resultante. Calculamos então o torque resultante sobre o palito 1, já que as forças <span className="vector-f" style={{fontSize: 18}}></span> e <span className="vector-p" style={{fontSize: 18}}></span> agem sobre esse palito. A componente vertical da força <span className="vector-f" style={{fontSize: 18}}></span> é a responsável por gerar um torque no sentido contrário aquele gerado pela força <span className="vector-p" style={{fontSize: 18}}></span>, impedindo o palito de rotacionar. O diagrama de corpo livre do palito é mostrado abaixo.
                 </p>
-                <img className="img-questao" src="./img/fuvestfis2021-img/Q46-img/palito_q46.svg"></img>
+                <img className="img-questao img-fit" src="./img/fuvestfis2021-img/Q46-img/palito_q46.svg"></img>
                 <p>
                     Uma consideração dada na questão é de que o palito se mantém estático mas na iminência de rotacionar, ou seja, nessa condição ele é sustentado por uma força exercida pela ponta da mesa, como mostrado na figura, e a força normal da superfície de contato &#8210; que gera a força de atrito &#8210; é, somente nessa condição, considerada nula.
                 </p>

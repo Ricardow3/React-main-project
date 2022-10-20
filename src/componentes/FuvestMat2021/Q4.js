@@ -43,8 +43,8 @@ const Q4_fuvest2021 = () => {
                 poderia ser em qualquer lugar, o que iria modificar os valores das coordenandas dos outros pontos. Sendo <span style={{fontSize: 20}} ref={var4}></span> o comprimento da aresta do triângulo e <span style={{fontSize: 20}} ref={var5}></span> a altura do triângulo. No triângulo equilátero todas as arestas são idênticas e a distância mínima entre o baricentro e cada um das arestas é igual. Finalmente, o baricentro é calculado utilizando a média aritmética das posições em cada eixo &#40;x e y&#41;:
                 </p>
                 <div style={{fontSize: 25}} ref={eq1}></div>
-                <div style={{fontSize: 20}} ref={eq2}></div>
-                <img className="img-questao" src="./img/fuvest2021-img/Q4-img/fuvest-mat-2021-triangle-center-2.svg" title="Coordenadas dos vértices e baricentro"></img>
+                <div className="div-eq-2" ref={eq2}></div>
+                <img className="img-questao img-fit" src="./img/fuvest2021-img/Q4-img/fuvest-mat-2021-triangle-center-2.svg" title="Coordenadas dos vértices e baricentro"></img>
                 <p>Como é visto na figura, o vértice <span ref={var6}></span> está alinhado horizontalmente com o ponto central <span className="G-const"></span>,
                 portanto o ponto <span className="G-const"></span> se encontra na coordenada vertical <span style={{fontSize: 20}} ref={var7}></span>. Mesmo assim, calculamos as duas coordenadas a partir das equações acima.                                   
                 </p>

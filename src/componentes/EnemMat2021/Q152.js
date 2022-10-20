@@ -38,7 +38,7 @@ const Q152_EnemMat2021 = () => {
                 <p>
                     Considerando então que <span style={{fontSize: 20}} ref={eq4}></span> &nbsp; e &nbsp; <span style={{fontSize: 20}} ref={eq5}></span>, substituimos esses termos na terceira equação acima:
                 </p>
-                <div style={{fontSize: 20}} ref={eq6}></div>
+                <div style={{fontSize: 20}} className="div-eq-1" ref={eq6}></div>
                 <p>
                     Note que a soma com <span style={{fontSize: 20}}>1</span> no segundo termo é resultado da operação <span style={{fontSize: 20}} ref={var2}></span>, colocando-se o <span style={{fontSize: 20}} ref={var1}></span> em evidência.
                 </p>
@@ -57,8 +57,10 @@ const Q152_EnemMat2021 = () => {
                 <p>
                     Podemos escrever, de forma alternativa, um polinômio de mais alto grau em função das suas raízes, separando cada termo em polinômios de 1° grau. Esse processo é chamado de fatoração:
                 </p>
-                <div style={{fontSize: 20}} ref={eq11}></div>
-                <div style={{fontSize: 18}} ref={eq12}></div>
+                <div className="div-eq-1">
+                    <div style={{fontSize: 20}} ref={eq11}></div>
+                    <div style={{fontSize: 18}} ref={eq12}></div>
+                </div>
                 <p>
                     Como dito na questão, o valor recebido pelo navio é igual à soma das duas maiores raízes:
                 </p>

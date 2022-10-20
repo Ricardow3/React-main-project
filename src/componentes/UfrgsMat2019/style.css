@@ -12,3 +12,9 @@
 .soon img {
     width: 150px;
 }
+
+@media screen and (max-width: 475px) {
+    .soon {
+        width: 90vw;
+    }
+}

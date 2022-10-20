@@ -36,7 +36,7 @@ const Q16_unicamp2022 = () => {
                     A sequência de expoentes formam uma progressão aritmética. A soma de <span style={{fontSize: 20}} ref={var1}></span> termos dessa sequência é:
                 </p>
                 <div ref={eq5}></div>
-                <div style={{fontSize: 18}} ref={eq6}></div>
+                <div style={{fontSize: 18}} className="div-eq-1" ref={eq6}></div>
                 <p>
                     A média então fica:
                 </p>
