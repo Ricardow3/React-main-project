@@ -6,11 +6,11 @@ const Q149_EnemMat2020 = () => {
     const var1 = useElementDiv("Y");
     const var2 = useElementDiv("X");
     const eq1 = useElementDiv("Y = \\log(f) = \\log\\left( \\frac{A}{r^B} \\right)", "true");
-    const eq2 = useElementDiv("\\log\\left( \\frac{A}{r^B} \\right) = \\log(A) - \\log(r^b)", "true");
-    const eq3 = useElementDiv("\\log(r^b) = b \\log(r)", "true");
+    const eq2 = useElementDiv("\\log\\left( \\frac{A}{r^B} \\right) = \\log(A) - \\log(r^B)", "true");
+    const eq3 = useElementDiv("\\log(r^B) = B \\log(r)", "true");
     const eq4 = useElementDiv("Y = \\log(f)");
     const eq5 = useElementDiv("X = \\log(r)");
-    const eq6 = useElementDiv("Y = \\log(A) - b \\log(r) =");
+    const eq6 = useElementDiv("Y = \\log(A) - B \\log(r) =");
     const resp = useElementDiv("\\log(A) - B \\cdot X");
 
     return (
