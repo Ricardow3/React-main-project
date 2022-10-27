@@ -53,7 +53,7 @@ const Q107_EnemFis2021 = () => {
                     Onde <span style={{fontSize: 18}} ref={eq5}></span> é o trabalho realizado por uma força ao longo do deslocamento. Nessa equação, a força e a velocidade são constantes ao longo do deslocamento.
                 </p>
                 <p>
-                    A questão mostra a velocidade máxima atingida nos dois casos. Entretanto, não podemos concluir à respeito da potência quando a velocidade máxima é atingida, pois não sabemos o valor da força que mantém o carro em movimento. A força que mantém o carro em velocidade constante deve se igualar às forças de atrito nos componentes internos do carro mais a resistência ao rolamento nas rodas. Essa força é chamada, popularmente, de tração.
+                    A questão mostra a velocidade máxima atingida nos dois casos. Entretanto, não podemos concluir a respeito da potência quando a velocidade máxima é atingida, pois não sabemos o valor da força que mantém o carro em movimento. A força que mantém o carro em velocidade constante deve se igualar às forças de atrito nos componentes internos do carro mais a resistência ao rolamento nas rodas. Essa força é chamada, popularmente, de tração.
                 </p>
             </section>
         </div>
