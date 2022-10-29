@@ -79,3 +79,21 @@
     border-radius: 5px;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 475px) {
+    .div-eq-1 {
+        overflow: auto;
+    }
+    #div-resp-q16 {
+        width: 300px;
+        flex-wrap: wrap;
+    }
+    .eq-img {
+        width: 320px;
+        flex-wrap: wrap;
+    }
+    #div-resp-q21 {
+        width: 280px;
+        flex-wrap: wrap;
+    }
+}

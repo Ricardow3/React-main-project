@@ -40,7 +40,7 @@ const Q92_EnemFis2021 = () => {
                     O que ocorre de fato nas barras não é exatamente o mesmo fenômeno da corda, isso porque a corda propaga uma onda transversal. Entretanto, no caso da barra do sino, a onda que se propaga é do tipo longitudinal. Na verdade, as ondas sonoras que se propagam pelo ar são sempre longitudinais. Estas são ondas cuja vibração ocorre no mesmo sentido da propagação da onda.
                 </p>
                 <p>A figura abaixo ilustra como é o comportamento de uma onda longitudinal se propagando ao longo da região oca da barra &#40;região que contém ar&#41;.</p>
-                <img className="img-questao" src="./img/enemfis2021-img/Q92-img/pipe-air-pressure.svg"></img>
+                <img className="img-questao img-fit" src="./img/enemfis2021-img/Q92-img/pipe-air-pressure.svg"></img>
                 <p>
                     As zonas de máxima compressão e expansão do ar se alternam ao longo do tempo &#40;enquanto uma está em compressão, a outra está em expansão&#41; e correspondem a zonas de alta e baixa pressão. A onda senoidal mostrada na figura representa a pressão do ar, ou seja, os nós &#40;nesse caso denominados nós de pressão&#41; representam zonas onde a pressão varia muito pouco. Próximo dos nós de pressão o ar é livre para se deslocar. Já que a barra do sino não possui extremidades fechadas ao ambiente externo, ambas extremidades são consideradas nós de pressão.
                 </p>

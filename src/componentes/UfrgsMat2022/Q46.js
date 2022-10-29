@@ -18,15 +18,21 @@ const Q46_ufrgs2022 = () => {
             <img className="img-questao img-main" src="./img/ufrgs2022-img/ufrgs-mat-2022-Q46.jpeg" title="Questão 46 - Prova de matemática; UFRGS 2022"></img>
             <p>Para resolver esse somatório, basta aplicar uma propriedade conhecida do logaritmo:</p>
             <div style={{fontSize: 20}} ref={eq1}></div>
-            <p>Primeiro, é feita a simplificação da fração dentro de cada logaritmo. Como o denominador das frações cresce em progressão aritmética, os termos ficam:</p>
-            <div style={{fontSize: 18}} ref={eq2}></div>
+            <p>
+                Primeiro, é feita a simplificação da fração dentro de cada logaritmo. Como o denominador das frações cresce em progressão aritmética, os termos ficam:
+            </p>
+            <div style={{fontSize: 18}} className="div-eq-1" ref={eq2}></div>
             <p>Aplicando a propriedade acima:</p>
-            <div ref={eq3}></div>
-            <p>Os termos intermediários se cancelam, sobrando somente o primeiro e o último. Aplicando novamente a mesma propriedade:</p>
+            <div ref={eq3} className="div-eq-1"></div>
+            <p>
+                Os termos intermediários se cancelam, sobrando somente o primeiro e o último. Aplicando novamente a mesma propriedade:
+            </p>
             <div style={{fontSize: 18}} ref={eq4}></div>
             <p>Como o logaritmo é de base 10, a solução pode ser encontrado pela simplificação:</p>
-            <div ref={eq5}></div>
-            <div style={{fontSize: 18}} ref={eq6}></div>
+            <div className="div-eq-1">
+                <div ref={eq5}></div>
+                <div style={{fontSize: 18}} ref={eq6}></div>
+            </div>
             <div id="resposta-q46" ref={resp}></div>
         </section>
     )

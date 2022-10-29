@@ -47,7 +47,7 @@ const Q10_fuvest2021 = () => {
                 <span style={{fontSize: 20}} ref={eq6}></span>.
                 </p>
                 <p id="parag">
-                É necessário conhecer <div id="span">duas variáveis <span>Podem ser dois pontos que pertencem a reta ou um ponto e o ângulo de inclinação</span> </div> para resolver qualquer uma das equações acima, já que elas possuem as duas variáveis <span style={{fontSize: 20}} className="a-const"></span> e <span style={{fontSize: 20}} className="b-const"></span>.
+                É necessário conhecer <div id="span-mobile">duas variáveis <span>Podem ser dois pontos que pertencem à reta ou um ponto e o ângulo de inclinação</span> </div> para resolver qualquer uma das equações acima, já que elas possuem as duas variáveis <span style={{fontSize: 20}} className="a-const"></span> e <span style={{fontSize: 20}} className="b-const"></span>.
                 </p>
                 <p>
                 Os dois pontos que pertencem a reta e podem ser identificados pela figura são as intersecções da reta com os eixo <span style={{fontSize: 20}} ref={var1}></span> e <span style={{fontSize: 20}} ref={var2}></span>, ou seja, <math><mo>&#40;</mo><mn><mo>-</mo>1</mn><mo>,</mo><mn>0</mn><mo>&#41;</mo></math> e <math><mo>&#40;</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>&#41;</mo></math>.

@@ -19,7 +19,7 @@ const Q105_EnemFis2021 = () => {
                 <p>
                     As cargas estão imersas em um campo magnético uniforme, onde as linhas de campo magnético são ortogonais as linhas de campo gravitacional. A figura abaixo ilustra uma projeção tridimensional do campo magnético e do haltere de cargas.
                 </p>
-                <img src="./img/enemfis2021-img/Q105-img/campo_magnetico_1.svg" className="img-questao"></img>
+                <img src="./img/enemfis2021-img/Q105-img/campo_magnetico_1.svg" className="img-questao img-fit"></img>
                 <p>
                     A força magnética que atua sobre as cargas é uma componente da chamada força de Lorentz &#40;ou força eletromagnética&#41;. A força de Lorentz é uma combinação das forças elétricas e magnéticas que são proporcionais a magnitude dos respectivos campos. Para uma partícula carregada, a força magnética é descrita como:
                 </p>
@@ -43,7 +43,7 @@ const Q105_EnemFis2021 = () => {
                 <p>
                     Para encontrar o sentido correto da força, é conveniente que se utilize a chamada <span className="italic">regra da mão direita</span>. Nessa convenção, a mão direita é aberta com o dedo polegar perpendicular aos outros. O dedo polegar representa a velocidade da carga, os outros dedos representam o campo magnético e a palma da mão representa a força magnética.
                 </p>
-                <img src="./img/enemfis2021-img/Q105-img/mao-direita.svg" className="img-questao"></img>
+                <img src="./img/enemfis2021-img/Q105-img/mao-direita.svg" className="img-questao img-fit"></img>
                 <p>
                     Se a carga elétrica for positiva, a força aponta no sentido da palma, caso seja negativa, ela aponta no sentido contrário.
                 </p>

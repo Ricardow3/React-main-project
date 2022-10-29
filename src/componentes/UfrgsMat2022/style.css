@@ -25,6 +25,14 @@
     font-size: 18pt;
     align-items: center;
     justify-content: center;
-    width: 500px;
+    width: 450px;
     margin: auto;
+}
+
+@media screen and (max-width: 475px) {
+    #div-respq53 {
+        width: 280px;
+        height: 160px;
+        flex-wrap: wrap;
+    }
 }

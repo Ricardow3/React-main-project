@@ -20,7 +20,9 @@ const Q107_EnemFis2021 = () => {
             <section className="body-texto">
                 <h1>ENEM 2021 - Prova de Física</h1>
                 <h2>Questão 107</h2>
-                <img src="./img/enemfis2021-img/Q107-img/enem-fis-2021-q107.jpeg" className="img-questao img-main" title="Questão 107 - Prova de Física; ENEM 2021"></img>
+                <div className="div-img-large">
+                    <img src="./img/enemfis2021-img/Q107-img/enem-fis-2021-q107.jpeg" className="img-questao img-main-large" title="Questão 107 - Prova de Física; ENEM 2021"></img>
+                </div>
                 <p>
                     A questão apresenta dados de aceleração e velocidade máxima do mesmo veículo &#40;mesma massa&#41; funcionando com álcool e com gasolina.
                 </p>
@@ -51,7 +53,7 @@ const Q107_EnemFis2021 = () => {
                     Onde <span style={{fontSize: 18}} ref={eq5}></span> é o trabalho realizado por uma força ao longo do deslocamento. Nessa equação, a força e a velocidade são constantes ao longo do deslocamento.
                 </p>
                 <p>
-                    A questão mostra a velocidade máxima atingida nos dois casos. Entretanto, não podemos concluir à respeito da potência quando a velocidade máxima é atingida, pois não sabemos o valor da força que mantém o carro em movimento. A força que mantém o carro em velocidade constante deve se igualar às forças de atrito nos componentes internos do carro mais a resistência ao rolamento nas rodas. Essa força é chamada, popularmente, de tração.
+                    A questão mostra a velocidade máxima atingida nos dois casos. Entretanto, não podemos concluir a respeito da potência quando a velocidade máxima é atingida, pois não sabemos o valor da força que mantém o carro em movimento. A força que mantém o carro em velocidade constante deve se igualar às forças de atrito nos componentes internos do carro mais a resistência ao rolamento nas rodas. Essa força é chamada, popularmente, de tração.
                 </p>
             </section>
         </div>

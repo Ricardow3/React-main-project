@@ -34,26 +34,28 @@ const Q24_unicamp2022 = () => {
             <p>
                 Como o ângulo <span style={{fontSize: 20}} className="div-alpha"></span> não é um dos ângulos notáveis &#40;30°, 45° ou 60°&#41; a estimativa dos seus respectivos senos e cossenos pode ser difícil por aproximação. Para estimar o seno e o cosseno do ângulo <span style={{fontSize: 20}} className="div-alpha"></span> usa-se as relações dadas na questão. A dedução é mostrada abaixo:
             </p>
-            <div>
+            <div className="div-img-large">
                 <img className="img-questao img-eq2" src="./img/unicamp2022-img/Q24-img/eq-2.svg"></img>
                 <img className="img-questao img-eq2" src="./img/unicamp2022-img/Q24-img/eq-3.svg"></img>
             </div>
             <p>
                 A relação&nbsp; <span ref={eq2}></span> &nbsp;é aplicada no denominador. Substituindo <span style={{fontSize: 20}} className="div-alpha"></span> pelo ângulo dado na questão, chega-se ao valor de&nbsp; <span style={{fontSize: 15}} ref={eq3}></span> &nbsp;que é um ângulo múltiplo de 45°:
             </p>
-            <div ref={eq4}></div>
+            <div ref={eq4} className="div-eq-1"></div>
             <p>Aplicando esse valor à equação acima:</p>
             <img className="img-questao" id="eq5-q24" src="./img/unicamp2022-img/Q24-img/eq-5.svg"></img>
             <p>
                 Multiplica-se o termo resultante por&nbsp; <span ref={eq5}></span> &nbsp;no numerador e no denominador, como mostrado acima.
             </p>
             <p>Juntando-se os termos do denominador em uma única raiz:</p>
-            <div>
+            <div className="div-img-large">
                 <img className="img-questao img-eq4" src="./img/unicamp2022-img/Q24-img/eq-61.svg"></img>
                 <img className="img-questao img-eq4" src="./img/unicamp2022-img/Q24-img/eq-62.svg"></img>
             </div>
             <p>Resolvendo o termo&nbsp; <span style={{fontSize: 20}} ref={eq6}></span> &nbsp;pela relação dada na questão: </p>
-            <img className="img-questao" id="eq7-q24" src="./img/unicamp2022-img/Q24-img/eq-7.svg"></img>
+            <div className="div-img-large">
+                <img className="img-questao" id="eq7-q24" src="./img/unicamp2022-img/Q24-img/eq-7.svg"></img>
+            </div>
             <p>Finalmente, substituindo os termos resultante na primeira expressão &#40;largura do canal&#41;:
             </p>
             <div id="resposta-q24" ref={resp}></div>

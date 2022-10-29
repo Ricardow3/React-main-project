@@ -34,7 +34,7 @@ const Q20_unicamp2022 = () => {
                 Na matriz acima, o número 48 se encontra na 2º linha e 1º coluna, ou seja, na posição <span ref={var1}></span>. Para encontra a matriz transposta, basta substituir a posição da linha pela da coluna. O número 48 então é colocada na posição <span ref={var2}></span>.
                 Aplicando essa lógica para encontrar a matriz transposta de <math style={{fontSize: 18}}><mi>A</mi></math> e resolvendo a equação para encontrar a matriz <math style={{fontSize: 18}}><mi>B</mi></math>:
             </p>
-            <div style={{fontSize: 20}} ref={eq1}></div>
+            <div style={{fontSize: 20}} className="div-eq-1" ref={eq1}></div>
             <p>
                 Aplicando a matriz <math style={{fontSize: 18}}><mi>B</mi></math> no sistema da questão:
             </p>
@@ -62,11 +62,9 @@ const Q20_unicamp2022 = () => {
                 Resolvendo ainda para&nbsp; <span ref={eq12}></span>, a fim de verificar todas as alternativas,
             </p>
             <div style={{fontSize: 20}} ref={eq13}></div>
-                {/* \[ \normalsize{ 2x + 6y = 2021 } \] */}
-                {/* \[ \normalsize{ 6x + 18y = 2022 } \] */}
-            <p>Dividindo uma equação pela outra, chega-se à&nbsp; <span style={{fontSize: 18}} ref={eq14}></span>. O sistema não possui solução.</p>
-                {/* \( \large{ \frac{1}{3} = \frac{2021}{2022} } \).  */}
-
+            <p>
+                Dividindo uma equação pela outra, chega-se à&nbsp; <span style={{fontSize: 18}} ref={eq14}></span>. O sistema não possui solução.
+            </p>
             </section>
         </div>
     )

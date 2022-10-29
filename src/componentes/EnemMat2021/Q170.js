@@ -60,14 +60,14 @@ const Q170_EnemMat2021 = () => {
                     Onde <span style={{fontSize: 20}} ref={eq2}></span> é o volume aproximado do cone, <span style={{fontSize: 20}} ref={eq3}></span> é a diferença entre o raio do cone na base e o raio de cada cilindro, essa diferença aumenta a cada cilindro acima do anterior. Resolvendo a expressão acima, encontramos:
                 </p>
                 <div style={{fontSize: 20}} ref={eq4}></div>
-                <div style={{fontSize: 20}} ref={eq5}></div>
+                <div style={{fontSize: 20}} className="div-eq-1" ref={eq5}></div>
                 <p>
                     Para o primeiro cilindro, <span style={{fontSize: 20}} ref={eq6}></span>. Para cada cilindro acima, a diferença aumenta <span ref={var1}></span> vezes, de forma que a expressão fica <span style={{fontSize: 20}} ref={eq7}></span>.
                 </p>
                 <p>
                     Separando a expressão em três somatórios, podemos resolver usando progressão aritmética:
                 </p>
-                <div style={{fontSize: 20}} ref={eq8}></div>
+                <div style={{fontSize: 20}} className="div-eq-1" ref={eq8}></div>
                 <p>
                     Para encontrar o limite do somatório <span style={{fontSize: 20}} ref={var2}></span>, considera-se que no topo do cone o raio é nulo:
                 </p>
@@ -79,12 +79,14 @@ const Q170_EnemMat2021 = () => {
                 <p>
                     Resolvendo as progressão aritméticas com potência:
                 </p>
-                <div ref={eq12}></div>
+                <div ref={eq12} className="div-eq-1"></div>
                 <p>
                     Como <span style={{fontSize: 18}} ref={eq13}></span>, segue-se a dedução substituindo esse termo na expressão acima &#40;caso queira, pode fazer o resto da dedução como exercício&#41;. A solução fica:
                 </p>
-                <div ref={eq14}></div>
-                <div style={{fontSize: 18}} ref={eq15}></div>
+                <div className="div-eq-1">
+                    <div ref={eq14}></div>
+                    <div style={{fontSize: 18}} ref={eq15}></div>
+                </div>
                 <p>
                     O último termo é considerado aproximadamente zero.
                 </p>
@@ -104,13 +106,17 @@ const Q170_EnemMat2021 = () => {
                 </p>
                 <img src="./img/enem2021-img/Q170-img/cone_2d_tronco.svg" className="img-questao"></img>
                 <div style={{fontSize: 20}} ref={eq18}></div>
-                <div style={{fontSize: 20}} ref={eq19}></div>
-                <div style={{fontSize: 20}} ref={eq20}></div>
+                <div className="div-eq-1">
+                    <div style={{fontSize: 20}} ref={eq19}></div>
+                    <div style={{fontSize: 20}} ref={eq20}></div>
+                </div>
                 <p>
                     Calculando o volume dos dois cones e subtraindo um do outro, chegamos em:
                 </p>
-                <div style={{fontSize: 20}} ref={eq21}></div>
-                <div style={{fontSize: 20}} ref={eq22}></div>
+                <div className="div-eq-1">
+                    <div style={{fontSize: 20}} ref={eq21}></div>
+                    <div style={{fontSize: 20}} ref={eq22}></div>
+                </div>
                 <p>
                     Fazendo a conversão para mililitro:
                 </p>

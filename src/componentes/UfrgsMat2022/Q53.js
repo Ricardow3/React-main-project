@@ -25,8 +25,8 @@ const Q53_ufrgs2022 = () => {
             <p>
                 Essa questão parece complexa, mas pode ser resolvida por partes, dividindo os segmentos de área mostrados e somando-os para encontrar as áreas resultantes. Através dessa abordagem, divivimos as áreas relevantes e designamos com uma variável qualquer, como mostrado abaixo.
             </p>
-            <img className="img-questao" src="./img/ufrgs2022-img/Q53-img/geometrias_1.svg" title="Segmentos de área sombreados da questão"></img>
-            <img className="img-questao" src="./img/ufrgs2022-img/Q53-img/geometrias_2.svg" title="Segmentos de área auxiliares"></img>
+            <img className="img-questao img-fit" src="./img/ufrgs2022-img/Q53-img/geometrias_1.svg" title="Segmentos de área sombreados da questão"></img>
+            <img className="img-questao img-fit" src="./img/ufrgs2022-img/Q53-img/geometrias_2.svg" title="Segmentos de área auxiliares"></img>
             <p>As áreas sombreadas da questão aparecem em azul e são designadas como <span style={{fontSize: 20}} className="alpha-q53"></span> e <span style={{fontSize: 20}} className="beta-q53"></span>. A medida da aresta do quadrado é <strong style={{fontSize: 20}}>a</strong>. </p>
             <p>As áreas em amarelo claro são auxiliares e são utilizadas para um melhor entendimento, a partir delas se obtém a área <span style={{fontSize: 20}} className="beta-q53"></span>.</p>
             <p>
@@ -43,9 +43,13 @@ const Q53_ufrgs2022 = () => {
                 As áreas <span style={{fontSize: 20}} className="tau-ups-phi"></span> são todas arcos de circunferência. O valor de <span style={{fontSize: 20}} className="beta-q53"></span> fica:
             </p>
             <div style={{fontSize: 20}} ref={eq4}></div>
-            <p>O valor de <span style={{fontSize: 20}} className="beta-q53"></span> poderia ser obtido, alternativamente, subtraindo-se o arco de 45° &#40;com raio <strong style={{fontSize: 20}}>a</strong>&#41; do triângulo retângulo e do arco de 90° &#40;com raio <strong style={{fontSize: 20}} className="raio%2-q53"></strong>&#41; mostrados na primeira figura. São formas equivalentes de se obter o mesmo resultado.</p>
-            <p>Resolvendo para <span style={{fontSize: 20}} className="beta-q53"></span> a equação acima:</p>
-            <div style={{fontSize: 20}} ref={eq5}></div>
+            <p>
+                O valor de <span style={{fontSize: 20}} className="beta-q53"></span> poderia ser obtido, alternativamente, subtraindo-se o arco de 45° &#40;com raio <strong style={{fontSize: 20}}>a</strong>&#41; do triângulo retângulo e do arco de 90° &#40;com raio <strong style={{fontSize: 20}} className="raio%2-q53"></strong>&#41; mostrados na primeira figura. São formas equivalentes de se obter o mesmo resultado.
+            </p>
+            <p>
+                Resolvendo para <span style={{fontSize: 20}} className="beta-q53"></span> a equação acima:
+            </p>
+            <div className="div-eq-2" ref={eq5}></div>
             <p>A área total sombreada equivale à <span style={{fontSize: 20}} ref={eq6}></span>:</p>
             <div id="div-respq53">
                 <div ref={eq7}></div>

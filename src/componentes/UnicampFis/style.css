@@ -22,3 +22,10 @@
     text-decoration: none;
     color: #000;
 }
+
+@media screen and (max-width: 475px) {
+    .unicamp-fis-list {
+        width: 100vw;
+        justify-content: space-around;
+    }
+}

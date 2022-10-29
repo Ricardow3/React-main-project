@@ -52,3 +52,22 @@
     margin: 5px auto;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 475px) {
+    .div-img-large {
+        width: 90vw;
+        overflow: auto;
+    }
+    .img-main-large {
+        width: 550px;
+    }
+    #span-mobile span {
+        width: 220px;
+        left: 0%;
+        margin-left: -100px;
+    }
+    .eq_img {
+        width: 80vw;
+        flex-wrap: wrap;
+    }
+}

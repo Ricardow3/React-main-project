@@ -10,12 +10,12 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-#span-q46 {
+#span {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
 }
-#span-q46 span {
+#span span {
     visibility: hidden;
     width: 180px;
     background-color: rgba(255, 255, 255, 0.9);
@@ -31,7 +31,7 @@
     left: 50%;
     margin-left: -60px;
 }
-#span-q46:hover span {
+#span:hover span {
     visibility: visible;
 }
 #resposta-fis-q46 {
@@ -55,8 +55,15 @@
 #resp-fis-q47 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 20px;
-    width: 330px;
+    width: 350px;
     margin: auto;
+}
+
+@media screen and (max-width: 475px) {
+    #resp-fis-q47 {
+        width: 280px;
+        flex-wrap: wrap;
+    }
 }
