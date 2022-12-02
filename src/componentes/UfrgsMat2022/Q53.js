@@ -8,6 +8,7 @@ const Q53_ufrgs2022 = () => {
     useConstLatex("\\beta", "beta-q53", 7);
     useConstLatex("\\frac{\\text{a}}{2}", "raio%2-q53", 3);
     useConstLatex("T , \\; \\Upsilon \\; \\text{\\footnotesize{e}} \\; \\Phi ", "tau-ups-phi", 2);
+    const var1 = useElementDiv("\\frac{1}{4}");
     const eq1 = useElementDiv("\\alpha = \\frac{\\pi \\left(\\frac{a}{2} \\right)^2}{4} -  \\frac{\\left(\\frac{a}{2} \\right)^2}{2} ", "true");
     const eq2 = useElementDiv("\\alpha = \\frac{\\pi a^2}{16} - \\frac{a^2}{8} = \\frac{a^2 (\\pi - 2)}{16} ", "true");
     const eq3 = useElementDiv("\\beta = T - \\Upsilon - \\Phi + \\alpha ", "true");
@@ -30,7 +31,7 @@ const Q53_ufrgs2022 = () => {
             <p>As áreas sombreadas da questão aparecem em azul e são designadas como <span style={{fontSize: 20}} className="alpha-q53"></span> e <span style={{fontSize: 20}} className="beta-q53"></span>. A medida da aresta do quadrado é <strong style={{fontSize: 20}}>a</strong>. </p>
             <p>As áreas em amarelo claro são auxiliares e são utilizadas para um melhor entendimento, a partir delas se obtém a área <span style={{fontSize: 20}} className="beta-q53"></span>.</p>
             <p>
-                Primeiramente, é calculada a área <span style={{fontSize: 20}} className="alpha-q53"></span> subtraindo o arco da circunferência de raio <span style={{fontSize: 20}} className="raio%2-q53"></span> pela área do triângulo retângulo cujos catetos são <span style={{fontSize: 20}} className="raio%2-q53"></span>. Como o arco possui 90°, a área equivale à <math style={{fontSize: 20}}><mfrac><mn>1</mn><mn>4</mn></mfrac></math> da circunferência:
+                Primeiramente, é calculada a área <span style={{fontSize: 20}} className="alpha-q53"></span> subtraindo o arco da circunferência de raio <span style={{fontSize: 20}} className="raio%2-q53"></span> pela área do triângulo retângulo cujos catetos são <span style={{fontSize: 20}} className="raio%2-q53"></span>. Como o arco possui 90°, a área equivale à <span ref={var1}></span> da circunferência:
             </p>
             <div style={{fontSize: 20}} ref={eq1}></div>
             <div style={{fontSize: 20}} ref={eq2}></div>
