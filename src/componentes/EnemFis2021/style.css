@@ -52,6 +52,12 @@
     margin: 5px auto;
     box-sizing: border-box;
 }
+#resp-q126 {
+    background: rgb(255, 176, 123);
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
 
 @media screen and (max-width: 475px) {
     .div-img-large {
